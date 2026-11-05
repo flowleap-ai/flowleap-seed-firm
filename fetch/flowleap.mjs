@@ -23,25 +23,38 @@ export function registerCalls(matter) {
 }
 
 /**
- * Runs one FlowLeap tool and returns its body. A refused call (no plan, no key, an error of the tool) throws
- * with the HTTP status and the error code, so a fetch never stores a refusal as data.
+ * Runs one FlowLeap tool and returns its data. On success the CLI unwraps the tool response and prints only
+ * its data; on a refused call (no plan, no key, an error of the tool) it exits non-zero and prints
+ * `{ ok: false, status, body }`. A refusal throws with the HTTP status and the error code, so a fetch
+ * never stores a refusal as data.
  * @param {string} tool - The FlowLeap tool name.
  * @param {Record<string, string>} input - The tool input.
- * @returns {unknown} The response body.
+ * @returns {unknown} The data of the tool.
  */
 export function callTool(tool, input) {
+  const call = `flowleap ${tool} ${JSON.stringify(input)}`
   let output
   try {
     output = execFileSync('flowleap', ['--json', 'tools', 'run', tool, '--input', JSON.stringify(input)], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 })
   } catch (error) {
-    // The CLI exits non-zero on a refused call and still prints its JSON envelope.
-    output = error.stdout
-    if (!output) throw new Error(`flowleap ${tool} failed: ${error.message}`)
+    const envelope = error.stdout ? JSON.parse(error.stdout) : null
+    if (envelope?.ok === false) throw new Error(`${call}: HTTP ${envelope.status} ${envelope.body?.error?.code ?? ''}`.trim())
+    throw new Error(`${call} failed: ${error.message}`)
   }
-  const envelope = JSON.parse(output)
-  if (typeof envelope.ok !== 'boolean' || !('body' in envelope)) throw new Error(`flowleap ${tool}: unexpected CLI output; expected { ok, status, body }`)
-  if (!envelope.ok) throw new Error(`flowleap ${tool} ${JSON.stringify(input)}: HTTP ${envelope.status} ${envelope.body?.error?.code ?? ''}`.trim())
-  return envelope.body
+  const data = JSON.parse(output)
+  if (data?.ok === false) throw new Error(`${call}: HTTP ${data.status} ${data.body?.error?.code ?? ''}`.trim())
+  return data
+}
+
+/**
+ * @param {import('../index.mjs').Seed} seed - The seed.
+ * @param {string[]} applications - Application numbers from the command line; none means every matter.
+ * @returns {import('../index.mjs').Matter[]} The matters to fetch or compare.
+ */
+export function selectMatters(seed, applications) {
+  const unknown = applications.filter(a => !seed.matters.some(m => m.application === a))
+  if (unknown.length > 0) throw new Error(`not a seed matter: ${unknown.join(', ')}`)
+  return seed.matters.filter(m => applications.length === 0 || applications.includes(m.application))
 }
 
 /**

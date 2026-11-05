@@ -38,7 +38,7 @@ A user may see a matter when the user is in its client group (`client-<id>`) or 
 | Path | What it holds |
 |---|---|
 | `firm/firm.json` | The fictional tenant id and domain (`seed-firm.test`) |
-| `firm/users.json` | Eight users: handle, name, firm role, app role, Entra object id, sign-in, whether the user may confirm a deadline |
+| `firm/users.json` | Eight users: handle, name, firm role, app role, Entra object id, sign-in, whether the user may confirm a deadline. The assistant has the firm role `formalities` without the confirm right until the design `Role` union has `assistant` (decision D5) |
 | `firm/groups.json` | The client groups, matter teams and the screen, with Entra object ids and members; these are the walls |
 | `firm/clients.json` | The three clients, their names as published, and their AI rules (decision D7) |
 | `firm/clocks.json` | The named clocks: `fetch` (2026-11-05, default), `closure` (2025-12-22), `after-closure` (2026-01-05) |
@@ -54,8 +54,8 @@ A user may see a matter when the user is in its client group (`client-<id>`) or 
 
 What the PDFs show:
 
-- **No PDF has a text layer.** Each register copy is a set of 300 dpi CCITT page images in an iText wrapper; `pdffonts` lists no font. A reader that needs a text layer finds nothing in any seed letter.
-- **Nearly every EPO form has two dates.** The footer prints a date beside the form number, for example `EPA Form 2004C 10.24AUWF (17.06.2025)` on a letter dated 20.06.2025. Decisions to grant also print "zur Poststelle am". Rows 8 and 11 have no footer date.
+- **No PDF has a text layer.** Each register copy is a set of page images in an iText wrapper; `pdffonts` lists no font. A reader that needs a text layer finds nothing in any seed letter.
+- **Nearly every EPO form has two dates.** The footer prints a date beside the form number, for example `EPA Form 2004C 10.24AUWF (17.06.2025)` on a letter dated 20.06.2025. Decisions to grant also print "zur Poststelle am". Rows 7, 8, 11 and 17 have no footer date.
 - **German letters say "EPA Form", "Datum", "Zeichen" and "Anmeldung Nr."**; English letters say "EPO Form", "Date", "Ref." and "Application No.".
 - **The "Ref." field is the reference of the real representative**, not the seed file number (decision D4).
 

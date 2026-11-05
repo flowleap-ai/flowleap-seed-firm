@@ -10,14 +10,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { loadSeed } from '../index.mjs'
-import { callTool, registerCalls, snapshot } from './flowleap.mjs'
+import { callTool, registerCalls, selectMatters, snapshot } from './flowleap.mjs'
 
-const seed = loadSeed()
-const wanted = process.argv.slice(2)
-const unknown = wanted.filter(a => !seed.matters.some(m => m.application === a))
-if (unknown.length > 0) throw new Error(`not a seed matter: ${unknown.join(', ')}`)
-
-for (const matter of seed.matters.filter(m => wanted.length === 0 || wanted.includes(m.application))) {
+for (const matter of selectMatters(loadSeed(), process.argv.slice(2))) {
   const snapshots = registerCalls(matter).map(({ tool, input }) => snapshot(tool, input, callTool(tool, input)))
   const dir = join(matter.dir, 'register')
   mkdirSync(dir, { recursive: true })

@@ -7,7 +7,7 @@
  * Needs the FlowLeap CLI with an account that has a plan (decision D6).
  */
 import { loadSeed } from '../index.mjs'
-import { callTool, registerCalls } from '../fetch/flowleap.mjs'
+import { callTool, registerCalls, selectMatters } from '../fetch/flowleap.mjs'
 import { canonicalJson } from './check-seed.mjs'
 
 /**
@@ -25,10 +25,8 @@ function differences(stored, fresh, path) {
   return [...keys].flatMap(key => differences(stored[key], fresh[key], Array.isArray(stored) ? `${path}[${key}]` : `${path}.${key}`))
 }
 
-const seed = loadSeed()
-const wanted = process.argv.slice(2)
 let found = 0
-for (const matter of seed.matters.filter(m => wanted.length === 0 || wanted.includes(m.application))) {
+for (const matter of selectMatters(loadSeed(), process.argv.slice(2))) {
   for (const { tool, input } of registerCalls(matter)) {
     const stored = matter.register[tool]
     if (!stored) {

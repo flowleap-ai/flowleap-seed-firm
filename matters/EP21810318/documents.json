@@ -43,6 +43,10 @@
       {
         "date": "2025-11-28",
         "where": "\"zur Poststelle am: 28.11.25\" beside the footer"
+      },
+      {
+        "date": "2025-07-28",
+        "where": "body: the date of the Rule 71(3) communication, printed as \"vom 28.07.25\""
       }
     ],
     "form": "EPA Form 2006A 05.23",

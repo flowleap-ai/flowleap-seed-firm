@@ -20,7 +20,7 @@ const APP_ROLES = ['FlowLeap.User', 'FlowLeap.Administrator']
 const MAY_BE_RESPONSIBLE = ['partner', 'attorney']
 const DOCUMENT_KINDS = ['r71-3-communication', 'art94-3-communication', 'art94-3-annex', 'decision-to-grant',
   'r112-1-loss-of-rights', 'r79-1-notice-of-opposition', 'text-intended-for-grant']
-const UNDATED_KINDS = ['art94-3-annex', 'text-intended-for-grant']
+const UNDATED_KINDS = ['text-intended-for-grant']
 const REGISTER_TOOLS = ['search_register', 'get_register_biblio', 'get_register_events', 'get_legal_status', 'get_bibliography']
 
 /**
@@ -37,23 +37,32 @@ export function canonicalJson(value) {
 
 const sha256 = data => createHash('sha256').update(data).digest('hex')
 const duplicates = values => values.filter((value, i) => values.indexOf(value) !== i)
-const nameTokens = name => name.toLowerCase().replace(/\bdr\.|\bprof\.|,/g, ' ').split(/\s+/).filter(Boolean)
+const TRANSLITERATION = { ä: 'ae', ö: 'oe', ü: 'ue', ß: 'ss' }
+const nameTokens = name => name.toLowerCase().replace(/[äöüß]/g, c => TRANSLITERATION[c])
+  .normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/\bdr\.|\bprof\.|[,.]/g, ' ').split(/\s+/).filter(Boolean)
+const PARTY_KEY = /name|applicant|representative|opponent|inventor|agent|proprietor/i
 
 /**
- * Collects the natural-person and company names of the register snapshots of one matter.
+ * Collects every name in the register snapshots of one matter: each string under a party key
+ * (applicants, representatives, opponents, inventors, name ...) at any depth, so the check does not
+ * depend on the response fields of one FlowLeap tool.
  * @param {import('../index.mjs').Matter} matter - A matter with register snapshots.
  * @returns {string[]} The names as published.
  */
 function registerNames(matter) {
   const names = []
-  for (const doc of matter.register.search_register?.body?.docs ?? []) {
-    names.push(...(doc.applicants ?? []), ...(doc.representatives ?? []).map(r => r.name), ...(doc.opponents ?? []).map(o => o.name))
+  const walk = (value, partyKey) => {
+    if (typeof value === 'string') {
+      if (partyKey) names.push(value)
+    } else if (Array.isArray(value)) {
+      value.forEach(item => walk(item, partyKey))
+    } else if (value && typeof value === 'object') {
+      for (const [key, child] of Object.entries(value)) walk(child, partyKey || PARTY_KEY.test(key))
+    }
   }
-  const biblio = matter.register.get_bibliography?.body
-  for (const key of ['inventors', 'applicants']) {
-    for (const party of biblio?.[key] ?? []) names.push(typeof party === 'string' ? party : party.name)
-  }
-  return names.filter(name => typeof name === 'string')
+  for (const snapshot of Object.values(matter.register)) walk(snapshot.body, false)
+  return names
 }
 
 /**

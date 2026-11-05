@@ -29,6 +29,8 @@ const poppler = (tool, file) => {
   }
 }
 
+const fileSha256 = file => createHash('sha256').update(readFileSync(file)).digest('hex')
+
 /**
  * @param {string} file - A PDF.
  * @returns {{ sha256: string, bytes: number, pages: number, textLayer: boolean }} The measured fields.
@@ -49,12 +51,15 @@ for (const matter of seed.matters) {
   for (const entry of entries) {
     const source = join(downloads, matter.application, `${String(entry.row).padStart(2, '0')}.pdf`)
     const target = join(matter.dir, entry.file)
+    const at = `${matter.application} row ${entry.row}`
     if (!existsSync(target)) {
-      if (!existsSync(source)) throw new Error(`${matter.application} row ${entry.row}: neither ${target} nor ${source} exists`)
+      if (!existsSync(source)) throw new Error(`${at}: neither ${target} nor ${source} exists`)
       copyFileSync(source, target, constants.COPYFILE_EXCL)
       copied++
-    } else if (existsSync(source) && measure(source).sha256 !== measure(target).sha256) {
-      throw new Error(`${matter.application} row ${entry.row}: ${source} differs from the committed ${target}; the package never replaces a document`)
+    } else if (entry.sha256 !== undefined && fileSha256(target) !== entry.sha256) {
+      throw new Error(`${at}: ${target} differs from its recorded sha256; the package never re-records a changed document`)
+    } else if (existsSync(source) && fileSha256(source) !== fileSha256(target)) {
+      throw new Error(`${at}: ${source} differs from the committed ${target}; the package never replaces a document`)
     }
     Object.assign(entry, measure(target))
   }

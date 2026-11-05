@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
+import { execFileSync } from 'node:child_process'
 import { appendFileSync, cpSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
@@ -86,19 +87,42 @@ test('the check rejects an object id that is used twice', () => {
 
 test('the check rejects an assistant who may confirm deadlines', () => {
   const errors = checkCopy(root => editJson(root, 'firm/users.json', users => users.map(u =>
-    u.handle === 'miriam' ? { ...u, mayConfirmDeadlines: true } : u)))
+    u.handle === 'miriam' ? { ...u, firmRole: 'assistant', mayConfirmDeadlines: true } : u)))
   assert.ok(errors.some(e => e.includes('users.miriam: an assistant may not confirm deadlines')), errors.join('\n'))
 })
 
-test('the check rejects a user with the name of a person in the register data', () => {
-  const errors = checkCopy(root => {
-    const dir = join(root, 'matters/EP23755468/register')
+/** A copy whose matter has one register snapshot of `tool` with `body`, checked. */
+function checkWithSnapshot(application, tool, body) {
+  return checkCopy(root => {
+    const dir = join(root, 'matters', application, 'register')
     mkdirSync(dir)
-    const body = { docs: [{ applicants: ['Renishaw plc'], representatives: [{ name: 'Weber, Jonas' }], opponents: [] }] }
-    writeFileSync(join(dir, 'search_register.json'), JSON.stringify({
-      tool: 'search_register', input: { query: 'pn=EP4569300' }, fetchedAt: '2026-11-05T00:00:00Z', source: 'test',
+    writeFileSync(join(dir, `${tool}.json`), JSON.stringify({
+      tool, input: {}, fetchedAt: '2026-11-05T00:00:00Z', source: 'test',
       sha256: createHash('sha256').update(canonicalJson(body)).digest('hex'), body,
     }))
   })
+}
+
+test('the check rejects a user with the name of a person in the register data', () => {
+  const errors = checkWithSnapshot('EP23755468', 'search_register',
+    { docs: [{ applicants: ['Renishaw plc'], representatives: [{ name: 'Weber, Jonas' }], opponents: [] }] })
   assert.ok(errors.some(e => e.includes('user jonas has the name of "Weber, Jonas"')), errors.join('\n'))
+})
+
+test('the name check reads every snapshot, plain strings and transliterated names', () => {
+  const errors = checkWithSnapshot('EP21755382', 'get_register_biblio', { representatives: ['KRUEGER, Martin'], opponents: [] })
+  assert.ok(errors.some(e => e.includes('user partner has the name of "KRUEGER, Martin"')), errors.join('\n'))
+})
+
+test('add-documents refuses to re-record a committed PDF that has changed', () => {
+  let root
+  checkCopy(copy => {
+    root = copy
+    appendFileSync(join(copy, 'matters/EP21755382/documents/02.pdf'), '\n')
+  })
+  const downloads = mkdtempSync(join(tmpdir(), 'seed-downloads-'))
+  copies.push(downloads)
+  assert.throws(() => execFileSync('node', [join(root, 'fetch/add-documents.mjs'), downloads], { stdio: 'pipe' }),
+    error => /EP21755382 row 2: .* differs from its recorded sha256/.test(String(error.stderr)))
+  assert.ok(checkSeed(root).errors.some(e => e.includes('EP21755382 row 2')), 'the changed PDF still fails the check')
 })

@@ -34,17 +34,17 @@
     "language": "en",
     "registerDocumentId": null,
     "registerListDate": "2026-06-09",
-    "dateOnDocument": null,
+    "dateOnDocument": "2026-06-09",
     "otherDates": [
       {
         "date": "2025-09-11",
         "where": "page 1: the date on which the claims were filed, printed as 11-09-2025"
       }
     ],
-    "form": null,
-    "formCode": null,
+    "form": "EPO Form 2906 01.91TRI",
+    "formCode": "2906",
     "reference": null,
-    "applicationNumberPrinted": null,
+    "applicationNumberPrinted": "23 755 468.8",
     "readBy": "a person, from the page image of page 1, 2026-11-05",
     "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
     "downloadedAt": "2026-11-05",

@@ -34,17 +34,17 @@
     "language": "de",
     "registerDocumentId": null,
     "registerListDate": "2026-09-18",
-    "dateOnDocument": null,
+    "dateOnDocument": "2026-09-18",
     "otherDates": [
       {
         "date": "2025-04-08",
         "where": "page 1: the date on which claims 1-15 were filed, printed as 08-04-2025"
       }
     ],
-    "form": null,
-    "formCode": null,
+    "form": "EPA Form 2906 01.91TRI",
+    "formCode": "2906",
     "reference": null,
-    "applicationNumberPrinted": null,
+    "applicationNumberPrinted": "24 166 597.5",
     "readBy": "a person, from the page image of page 1, 2026-11-05",
     "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
     "downloadedAt": "2026-11-05",

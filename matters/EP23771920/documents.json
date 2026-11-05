@@ -35,11 +35,16 @@
     "registerDocumentId": null,
     "registerListDate": "2026-09-29",
     "dateOnDocument": null,
-    "otherDates": [],
+    "otherDates": [
+      {
+        "date": "2024-03-14",
+        "where": "page 1 header: DESCRIPTION (14.03.2024)"
+      }
+    ],
     "form": null,
     "formCode": null,
     "reference": null,
-    "applicationNumberPrinted": null,
+    "applicationNumberPrinted": "EP 23 771 920.8",
     "readBy": "a person, from the page image of page 1, 2026-11-05",
     "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
     "downloadedAt": "2026-11-05",
