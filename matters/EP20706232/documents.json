@@ -1,0 +1,105 @@
+[
+  {
+    "row": 8,
+    "file": "documents/08.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2024-02-21",
+    "dateOnDocument": "2024-02-21",
+    "otherDates": [],
+    "form": "EPA Form 2001 11.16TRI",
+    "formCode": "2001",
+    "reference": "P80003WOEP",
+    "applicationNumberPrinted": "20 706 232.4 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "0ae41f9f606d73bed3742d98285837d97b0c6ae4bc1b653f67e3f572182269f5",
+    "bytes": 46416,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 9,
+    "file": "documents/09.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-07-30",
+    "dateOnDocument": "2025-07-30",
+    "otherDates": [
+      {
+        "date": "2025-07-28",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "P80003WOEP",
+    "applicationNumberPrinted": "20 706 232.4 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "f191ad60c02b8bee50b406914bc9980be98b380039735315eb7b041563558109",
+    "bytes": 229636,
+    "pages": 5,
+    "textLayer": false
+  },
+  {
+    "row": 10,
+    "file": "documents/10.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-08-29",
+    "dateOnDocument": "2025-08-29",
+    "otherDates": [
+      {
+        "date": "2025-08-27",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "P80003WOEP",
+    "applicationNumberPrinted": "20 706 232.4 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "c45e6ddce7e724d92cb66e46436c0b20a28f82a1bfcfd2b82bf7b6ca247c5ee9",
+    "bytes": 227675,
+    "pages": 5,
+    "textLayer": false
+  },
+  {
+    "row": 11,
+    "file": "documents/11.pdf",
+    "issuer": "EPO",
+    "kind": "r112-1-loss-of-rights",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2026-01-21",
+    "dateOnDocument": "2026-01-21",
+    "otherDates": [
+      {
+        "date": "2025-08-29",
+        "where": "body: the date of the Rule 71(3) communication whose period was missed"
+      }
+    ],
+    "form": "EPA Form 2015C 02.25",
+    "formCode": "2015C",
+    "reference": "P80003WOEP",
+    "applicationNumberPrinted": "20706232.4 - 1201 / 3935617",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "b7ad5f405624c2fd5604a6dc58430497791bf3eadb80505fcdb65b0a5ea829bf",
+    "bytes": 85142,
+    "pages": 2,
+    "textLayer": false
+  }
+]

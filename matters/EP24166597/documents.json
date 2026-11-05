@@ -1,0 +1,56 @@
+[
+  {
+    "row": 6,
+    "file": "documents/06.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2026-09-18",
+    "dateOnDocument": "2026-09-18",
+    "otherDates": [
+      {
+        "date": "2026-09-15",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2001 04.25AUWF",
+    "formCode": "2001",
+    "reference": "V/WGO-1227-EP",
+    "applicationNumberPrinted": "24 166 597.5 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "97e7775164bb62a31b8ddcc3d489e5002030f8f57974e8cba02c993c211106d5",
+    "bytes": 104613,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 7,
+    "file": "documents/07.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-annex",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2026-09-18",
+    "dateOnDocument": "2026-09-18",
+    "otherDates": [
+      {
+        "date": "2025-04-08",
+        "where": "page 1: the date on which claims 1-15 were filed, printed as 08-04-2025"
+      }
+    ],
+    "form": "EPA Form 2906 01.91TRI",
+    "formCode": "2906",
+    "reference": null,
+    "applicationNumberPrinted": "24 166 597.5",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "cdee14a5c638b29702ad27c3c023a4acad1658357b73b2b6b427a92a614f9a03",
+    "bytes": 791817,
+    "pages": 9,
+    "textLayer": false
+  }
+]

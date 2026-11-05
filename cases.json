@@ -1,0 +1,199 @@
+[
+  {
+    "id": "r71-3-closure-met",
+    "kind": "deadline",
+    "matter": "EP21755382",
+    "rows": [
+      2
+    ],
+    "summary": "Rule 71(3) communication of 2025-08-29. Four months end on 2025-12-29, inside the EPO closure, so the period ends on 2026-01-02 (OJ EPO 2025 A40). The grant fee was paid in time."
+  },
+  {
+    "id": "r71-3-closure-missed",
+    "kind": "deadline",
+    "matter": "EP20706232",
+    "rows": [
+      10,
+      11
+    ],
+    "summary": "Rule 71(3) communication of 2025-08-29 with the same period end, 2026-01-02. No act; the loss of rights is effective 2026-01-03 and noted on 2026-01-21 (row 11)."
+  },
+  {
+    "id": "r71-3-superseded",
+    "kind": "deadline",
+    "matter": "EP21755382",
+    "rows": [
+      1,
+      2
+    ],
+    "summary": "A first Rule 71(3) communication (row 1), then a second one (row 2) after the register event GRAJ. The deadline of row 1 is superseded."
+  },
+  {
+    "id": "r71-3-superseded-2",
+    "kind": "deadline",
+    "matter": "EP20706232",
+    "rows": [
+      9,
+      10
+    ],
+    "summary": "The same pattern on a second file: row 9, then row 10."
+  },
+  {
+    "id": "r71-3-weekend-overdue",
+    "kind": "deadline",
+    "matter": "EP22213933",
+    "rows": [
+      5
+    ],
+    "summary": "Rule 71(3) communication of 2026-04-01. Four months end on Saturday 2026-08-01, so the period ends on Monday 2026-08-03. No grant fee or loss of rights is in the FlowLeap data up to 2026-11-05: overdue at the clock 'fetch'."
+  },
+  {
+    "id": "art94-3-de-open",
+    "kind": "deadline",
+    "matter": "EP24166597",
+    "rows": [
+      6,
+      7
+    ],
+    "summary": "German Article 94(3) communication of 2026-09-18 with its annex. The period is stated in the letter. A due date in 2027 needs the 2027 EPO closing days (OJ EPO 2026 A30)."
+  },
+  {
+    "id": "art94-3-en",
+    "kind": "deadline",
+    "matter": "EP23755468",
+    "rows": [
+      16,
+      17
+    ],
+    "summary": "English Article 94(3) communication of 2026-06-09 with its annex."
+  },
+  {
+    "id": "r71-3-en-open",
+    "kind": "deadline",
+    "matter": "EP23771920",
+    "rows": [
+      18,
+      19
+    ],
+    "summary": "English Rule 71(3) communication of 2026-09-29 with the text intended for grant. Four months end on 2027-01-29, so the engine needs the 2027 closing days."
+  },
+  {
+    "id": "r79-1-opposition",
+    "kind": "deadline",
+    "matter": "EP21810318",
+    "rows": [
+      15
+    ],
+    "summary": "Communication of a notice of opposition (Rule 79(1) EPC) of 2026-10-14, with a period of four months for the proprietor. The opposition was filed on 2026-09-30, the last day of the nine months from the mention of grant on 2025-12-31."
+  },
+  {
+    "id": "two-dates",
+    "kind": "document",
+    "matter": "EP20706232",
+    "rows": [
+      11
+    ],
+    "summary": "Chosen case for the letter with two dates. EPA Form 2015C is dated 2026-01-21, and its body names the Rule 71(3) communication of 2025-08-29. The further-processing period runs from the notification of this letter, so a reader that takes the body date computes a wrong deadline. The form is not Form 2004C, so the office event is entered by hand (case S3b)."
+  },
+  {
+    "id": "two-dates-footer",
+    "kind": "document",
+    "matter": "EP21810318",
+    "rows": [
+      15
+    ],
+    "summary": "Second letter with two dates: dated 2026-10-14, with (06/10/26) in the form footer beside the form number. Every EPO form in this seed except rows 7, 8, 11 and 17 prints such a footer date, so most letters have two dates."
+  },
+  {
+    "id": "no-text-layer",
+    "kind": "document",
+    "matter": "EP21755382",
+    "rows": [
+      2
+    ],
+    "summary": "Every document in this seed is a register copy with no text layer: pdffonts lists no font, and each page is an image. Row 2 is the chosen example. The applicant-side priority document (download row 12) is not in the package: the EPO letters cover the case (decision D3)."
+  },
+  {
+    "id": "S1",
+    "kind": "sharing",
+    "matter": "EP21755382",
+    "users": [
+      "jonas",
+      "lena"
+    ],
+    "summary": "Two attorneys share a matter: jonas is responsible and lena is a co-attorney. Both may decide a code and confirm a deadline that the other proposed."
+  },
+  {
+    "id": "S2",
+    "kind": "sharing",
+    "matter": "EP23771920",
+    "users": [
+      "lena",
+      "anna",
+      "partner"
+    ],
+    "date": "2026-10-15",
+    "summary": "Handover from lena to anna with the instruction 'Check the text intended for grant of the Rule 71(3) communication of 29 September 2026'. anna sees the matter only from 2026-10-15."
+  },
+  {
+    "id": "S3a",
+    "kind": "sharing",
+    "matter": "EP21755382",
+    "rows": [
+      2
+    ],
+    "users": [
+      "sabine"
+    ],
+    "summary": "Two readers agree on a Form 2004C letter, so the reading counts as checked (two-readers)."
+  },
+  {
+    "id": "S3b",
+    "kind": "sharing",
+    "matter": "EP20706232",
+    "rows": [
+      11
+    ],
+    "users": [
+      "tobias",
+      "anna",
+      "partner",
+      "sabine"
+    ],
+    "summary": "tobias enters the office event and the further-processing deadline by hand. The record refuses tobias as confirmer and refuses sabine (outside the wall); anna or the partner confirms."
+  },
+  {
+    "id": "S3c",
+    "kind": "sharing",
+    "matter": "EP20706232",
+    "rows": [
+      11
+    ],
+    "summary": "The readers differ on the date of the letter with two dates. The person who decides the date cannot confirm the deadline."
+  },
+  {
+    "id": "S4",
+    "kind": "sharing",
+    "matter": "EP24166597",
+    "rows": [
+      6
+    ],
+    "users": [
+      "jonas",
+      "lena",
+      "partner"
+    ],
+    "summary": "The Article 94(3) Ticket is routed to jonas. lena and the partner see it and get not-routed-person when they try to decide."
+  },
+  {
+    "id": "S5",
+    "kind": "sharing",
+    "matter": "EP24166597",
+    "users": [
+      "jonas",
+      "partner",
+      "felix"
+    ],
+    "summary": "A run for jonas whose Mandate names all WAGO matters reads EP21755382 and EP24166597, never EP22213933 (screen). The same run for the partner reads all three; a run for felix reads none."
+  }
+]

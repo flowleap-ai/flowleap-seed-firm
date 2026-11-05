@@ -1,0 +1,8 @@
+{
+  "default": "fetch",
+  "clocks": {
+    "fetch": "2026-11-05",
+    "closure": "2025-12-22",
+    "after-closure": "2026-01-05"
+  }
+}

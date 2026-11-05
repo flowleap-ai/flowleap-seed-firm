@@ -1,0 +1,13 @@
+[
+  { "name": "client-wago", "objectId": "3d537d36-5089-47dd-952b-a597f88552a8", "kind": "client", "client": "wago", "members": [{ "user": "partner" }, { "user": "jonas" }] },
+  { "name": "client-phoenix", "objectId": "72d23be2-6255-47fe-a128-ea681f910589", "kind": "client", "client": "phoenix", "members": [{ "user": "partner" }, { "user": "anna" }] },
+  { "name": "client-renishaw", "objectId": "2feb3227-76eb-478a-9caa-f3c3db9d2340", "kind": "client", "client": "renishaw", "members": [{ "user": "partner" }, { "user": "lena" }] },
+  { "name": "matter-ep21755382", "objectId": "6bb3a0c9-b746-4e66-aaec-38fe5d7afebd", "kind": "matter", "matter": "EP21755382", "members": [{ "user": "jonas" }, { "user": "lena" }, { "user": "sabine" }] },
+  { "name": "matter-ep22213933", "objectId": "21827c61-756b-4fec-8273-38ee6289c0eb", "kind": "matter", "matter": "EP22213933", "members": [{ "user": "lena" }, { "user": "sabine" }] },
+  { "name": "matter-ep24166597", "objectId": "a75f88df-453a-48c8-ad43-b1d76628636b", "kind": "matter", "matter": "EP24166597", "members": [{ "user": "jonas" }, { "user": "lena" }, { "user": "sabine" }] },
+  { "name": "matter-ep20706232", "objectId": "8072b230-ebb3-41eb-bba9-c057e82fb2f8", "kind": "matter", "matter": "EP20706232", "members": [{ "user": "anna" }, { "user": "tobias" }, { "user": "miriam" }] },
+  { "name": "matter-ep21810318", "objectId": "8cd72997-679f-4a60-941f-b70544119526", "kind": "matter", "matter": "EP21810318", "members": [{ "user": "anna" }, { "user": "tobias" }] },
+  { "name": "matter-ep23755468", "objectId": "c1e8d518-ed3f-4465-937c-097a3fa28082", "kind": "matter", "matter": "EP23755468", "members": [{ "user": "lena" }, { "user": "sabine" }] },
+  { "name": "matter-ep23771920", "objectId": "1d66f5ab-59f0-4b77-a105-35d7d3801e37", "kind": "matter", "matter": "EP23771920", "members": [{ "user": "lena" }, { "user": "tobias" }, { "user": "anna", "from": "2026-10-15" }] },
+  { "name": "screen-ep22213933", "objectId": "1ddd42a5-7ff2-4b62-8e98-050f81e2ed7a", "kind": "screen", "matter": "EP22213933", "members": [{ "user": "jonas" }], "reason": "Fictional: jonas advised a third party on the parent application EP14724725 before joining the firm." }
+]

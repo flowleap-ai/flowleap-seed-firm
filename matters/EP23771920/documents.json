@@ -1,0 +1,56 @@
+[
+  {
+    "row": 18,
+    "file": "documents/18.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "en",
+    "registerDocumentId": null,
+    "registerListDate": "2026-09-29",
+    "dateOnDocument": "2026-09-29",
+    "otherDates": [
+      {
+        "date": "2026-09-25",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPO Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "1206/EPw/0",
+    "applicationNumberPrinted": "23 771 920.8 - 1001",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "07065585734ed2cb9ae8a5f693499051c1e405f257f578d0723fb592309ad9a9",
+    "bytes": 317759,
+    "pages": 4,
+    "textLayer": false
+  },
+  {
+    "row": 19,
+    "file": "documents/19.pdf",
+    "issuer": "EPO",
+    "kind": "text-intended-for-grant",
+    "language": "en",
+    "registerDocumentId": null,
+    "registerListDate": "2026-09-29",
+    "dateOnDocument": null,
+    "otherDates": [
+      {
+        "date": "2024-03-14",
+        "where": "page 1 header: DESCRIPTION (14.03.2024)"
+      }
+    ],
+    "form": null,
+    "formCode": null,
+    "reference": null,
+    "applicationNumberPrinted": "EP 23 771 920.8",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "ba11ef4d70e28c566e39c18ae446a8ef148298852fa75d2584a4167315f9c2cc",
+    "bytes": 1729461,
+    "pages": 36,
+    "textLayer": false
+  }
+]

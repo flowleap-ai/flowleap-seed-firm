@@ -1,0 +1,56 @@
+[
+  {
+    "row": 4,
+    "file": "documents/04.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2024-09-11",
+    "dateOnDocument": "2024-09-11",
+    "otherDates": [
+      {
+        "date": "2024-09-06",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2001 11.16AUWF",
+    "formCode": "2001",
+    "reference": "W130548WOEPT1",
+    "applicationNumberPrinted": "22 213 933.9 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "ab7f0d6c9febda00c65a2322523adb6a9bc7d5a224e3ea29a021d56a153f5e94",
+    "bytes": 45805,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 5,
+    "file": "documents/05.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2026-04-01",
+    "dateOnDocument": "2026-04-01",
+    "otherDates": [
+      {
+        "date": "2026-03-30",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "W130548WOEPT1",
+    "applicationNumberPrinted": "22 213 933.9 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "bed6f3aa0184ce8d87bee11d33dd2b62b17403493deea2eea3d69a9cea79a7de",
+    "bytes": 387999,
+    "pages": 5,
+    "textLayer": false
+  }
+]

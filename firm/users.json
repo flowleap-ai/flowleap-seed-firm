@@ -1,0 +1,75 @@
+[
+  {
+    "handle": "partner",
+    "name": "Dr. Martin Krüger",
+    "firmRole": "partner",
+    "appRole": "FlowLeap.User",
+    "objectId": "a4f9593b-0896-4138-8b9c-a17ceeffbd23",
+    "signIn": "martin.krueger@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "anna",
+    "name": "Dr. Anna Becker",
+    "firmRole": "attorney",
+    "appRole": "FlowLeap.User",
+    "objectId": "0f1e2d3c-4b5a-4968-8776-a5b4c3d2e1f0",
+    "signIn": "anna.becker@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "jonas",
+    "name": "Jonas Weber",
+    "firmRole": "attorney",
+    "appRole": "FlowLeap.User",
+    "objectId": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+    "signIn": "jonas.weber@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "lena",
+    "name": "Lena Hoffmann",
+    "firmRole": "attorney",
+    "appRole": "FlowLeap.User",
+    "objectId": "2b3c4d5e-6f70-4b8c-9d0e-1f2a3b4c5d6e",
+    "signIn": "lena.hoffmann@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "sabine",
+    "name": "Sabine Wolf",
+    "firmRole": "formalities",
+    "appRole": "FlowLeap.User",
+    "objectId": "adfbb95a-2c5f-4571-8091-452a266f8353",
+    "signIn": "sabine.wolf@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "tobias",
+    "name": "Tobias Schmitt",
+    "firmRole": "formalities",
+    "appRole": "FlowLeap.User",
+    "objectId": "8279562c-e5ec-431b-a839-f6bdc2966368",
+    "signIn": "tobias.schmitt@seed-firm.test",
+    "mayConfirmDeadlines": true
+  },
+  {
+    "handle": "miriam",
+    "name": "Miriam Yilmaz",
+    "firmRole": "formalities",
+    "appRole": "FlowLeap.User",
+    "objectId": "74e45f9c-c4a1-4033-8fe3-726d4d7961ca",
+    "signIn": "miriam.yilmaz@seed-firm.test",
+    "mayConfirmDeadlines": false,
+    "note": "An assistant (decision D5). The design Role union has no assistant yet, so the seed gives formalities without the confirm right."
+  },
+  {
+    "handle": "felix",
+    "name": "Felix Neumann",
+    "firmRole": "administrator",
+    "appRole": "FlowLeap.Administrator",
+    "objectId": "c2569871-8b89-4ab2-b4ca-c82ceb770f37",
+    "signIn": "felix.neumann@seed-firm.test",
+    "mayConfirmDeadlines": false
+  }
+]

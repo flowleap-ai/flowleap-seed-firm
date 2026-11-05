@@ -1,0 +1,56 @@
+[
+  {
+    "row": 16,
+    "file": "documents/16.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-communication",
+    "language": "en",
+    "registerDocumentId": null,
+    "registerListDate": "2026-06-09",
+    "dateOnDocument": "2026-06-09",
+    "otherDates": [
+      {
+        "date": "2026-06-03",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPO Form 2001 04.25AUWF",
+    "formCode": "2001",
+    "reference": "1203/EPw/0",
+    "applicationNumberPrinted": "23 755 468.8 - 1001",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "b0c9b018b34c44263e5e3dfab61b69bfaac8383bc228cff919bfe7f775961b57",
+    "bytes": 93900,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 17,
+    "file": "documents/17.pdf",
+    "issuer": "EPO",
+    "kind": "art94-3-annex",
+    "language": "en",
+    "registerDocumentId": null,
+    "registerListDate": "2026-06-09",
+    "dateOnDocument": "2026-06-09",
+    "otherDates": [
+      {
+        "date": "2025-09-11",
+        "where": "page 1: the date on which the claims were filed, printed as 11-09-2025"
+      }
+    ],
+    "form": "EPO Form 2906 01.91TRI",
+    "formCode": "2906",
+    "reference": null,
+    "applicationNumberPrinted": "23 755 468.8",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "5d62fea8424d4beea9ac112cc5affb07c9ba26039ffc225bf68162238b00a378",
+    "bytes": 93834,
+    "pages": 3,
+    "textLayer": false
+  }
+]

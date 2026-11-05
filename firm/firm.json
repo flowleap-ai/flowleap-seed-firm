@@ -1,0 +1,6 @@
+{
+  "name": "Seed firm",
+  "note": "A fictional patent firm. Its users, groups, file numbers, client AI rules and firm events are fictional. Its matters are real public EP files.",
+  "tenantId": "bd44a9c5-d81e-49b5-823f-1a033eef1686",
+  "domain": "seed-firm.test"
+}
