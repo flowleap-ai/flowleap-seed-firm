@@ -44,25 +44,36 @@ function measure(file) {
   return { sha256: createHash('sha256').update(bytes).digest('hex'), bytes: bytes.length, pages, textLayer: fonts > 0 }
 }
 
-const seed = loadSeed(SEED_ROOT)
-let copied = 0
-for (const matter of seed.matters) {
+const plan = loadSeed(SEED_ROOT).matters.map(matter => {
   const entries = JSON.parse(readFileSync(join(matter.dir, 'documents.json'), 'utf8'))
-  for (const entry of entries) {
+  return { matter, entries, steps: entries.map(entry => {
     const source = join(downloads, matter.application, `${String(entry.row).padStart(2, '0')}.pdf`)
     const target = join(matter.dir, entry.file)
     const at = `${matter.application} row ${entry.row}`
     if (!existsSync(target)) {
       if (!existsSync(source)) throw new Error(`${at}: neither ${target} nor ${source} exists`)
+      return { entry, source, target }
+    }
+    if (entry.sha256 !== undefined && fileSha256(target) !== entry.sha256) {
+      throw new Error(`${at}: ${target} differs from its recorded sha256; the package never re-records a changed document`)
+    }
+    if (existsSync(source) && fileSha256(source) !== fileSha256(target)) {
+      throw new Error(`${at}: ${source} differs from the committed ${target}; the package never replaces a document`)
+    }
+    return { entry, source: null, target }
+  }) }
+})
+
+// Every document passed its checks above, so nothing is copied or written when one of them fails.
+let copied = 0
+for (const { matter, entries, steps } of plan) {
+  for (const { entry, source, target } of steps) {
+    if (source) {
       copyFileSync(source, target, constants.COPYFILE_EXCL)
       copied++
-    } else if (entry.sha256 !== undefined && fileSha256(target) !== entry.sha256) {
-      throw new Error(`${at}: ${target} differs from its recorded sha256; the package never re-records a changed document`)
-    } else if (existsSync(source) && fileSha256(source) !== fileSha256(target)) {
-      throw new Error(`${at}: ${source} differs from the committed ${target}; the package never replaces a document`)
     }
     Object.assign(entry, measure(target))
   }
   writeFileSync(join(matter.dir, 'documents.json'), `${JSON.stringify(entries, null, 2)}\n`)
 }
-console.log(`add-documents: ${copied} PDF(s) copied; measured fields written for ${seed.matters.length} matters`)
+console.log(`add-documents: ${copied} PDF(s) copied; measured fields written for ${plan.length} matters`)
