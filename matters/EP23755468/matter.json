@@ -1,0 +1,18 @@
+{
+  "id": "R1",
+  "application": "EP23755468",
+  "firstPublication": "EP4569300A1",
+  "registerUrl": "https://register.epo.org/application?number=EP23755468&lng=en",
+  "title": "SCALE",
+  "client": "renishaw",
+  "fileNumber": "SF-2023-0042",
+  "type": "prosecution",
+  "language": "en",
+  "languageSource": "the language of the EPO letters in documents.json",
+  "responsible": [
+    {
+      "user": "lena"
+    }
+  ],
+  "coAttorneys": []
+}

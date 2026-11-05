@@ -1,0 +1,20 @@
+{
+  "id": "W1",
+  "application": "EP21755382",
+  "firstPublication": "EP4189782A2",
+  "registerUrl": "https://register.epo.org/application?number=EP21755382&lng=en",
+  "title": "CONDUCTOR CONNECTION TERMINAL",
+  "client": "wago",
+  "fileNumber": "SF-2021-0011",
+  "type": "prosecution",
+  "language": "de",
+  "languageSource": "the language of the EPO letters in documents.json",
+  "responsible": [
+    {
+      "user": "jonas"
+    }
+  ],
+  "coAttorneys": [
+    "lena"
+  ]
+}

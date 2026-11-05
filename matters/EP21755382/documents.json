@@ -1,0 +1,87 @@
+[
+  {
+    "row": 1,
+    "file": "documents/01.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-06-20",
+    "dateOnDocument": "2025-06-20",
+    "otherDates": [
+      {
+        "date": "2025-06-17",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "V/WGO-1051-EP",
+    "applicationNumberPrinted": "21 755 382.5 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "aa1f5bb09d5353f49aec830c2044ab2382365ed434d49f38aacfa8160479578f",
+    "bytes": 231519,
+    "pages": 5,
+    "textLayer": false
+  },
+  {
+    "row": 2,
+    "file": "documents/02.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-08-29",
+    "dateOnDocument": "2025-08-29",
+    "otherDates": [
+      {
+        "date": "2025-08-27",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "V/WGO-1051-EP",
+    "applicationNumberPrinted": "21 755 382.5 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "57b5e301b8ca0db9c10a9a550c7b8f34f04054aa061692c5672852ba71707650",
+    "bytes": 231364,
+    "pages": 5,
+    "textLayer": false
+  },
+  {
+    "row": 3,
+    "file": "documents/03.pdf",
+    "issuer": "EPO",
+    "kind": "decision-to-grant",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-10-23",
+    "dateOnDocument": "2025-10-23",
+    "otherDates": [
+      {
+        "date": "2025-10-17",
+        "where": "form footer, next to the form number, printed as (17/10/25)"
+      },
+      {
+        "date": "2025-10-17",
+        "where": "\"zur Poststelle am: 17.10.25\" beside the footer"
+      }
+    ],
+    "form": "EPA Form 2006A 05.23",
+    "formCode": "2006A",
+    "reference": "V/WGO-1051-EP",
+    "applicationNumberPrinted": "21755382.5 - 1201 / 4189782",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "80a51b15ae72b9e392c150ced2aa39d1bdcc780472ff715a9a3224ad11857a06",
+    "bytes": 106984,
+    "pages": 2,
+    "textLayer": false
+  }
+]

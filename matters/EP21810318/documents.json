@@ -1,0 +1,87 @@
+[
+  {
+    "row": 13,
+    "file": "documents/13.pdf",
+    "issuer": "EPO",
+    "kind": "r71-3-communication",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-07-28",
+    "dateOnDocument": "2025-07-28",
+    "otherDates": [
+      {
+        "date": "2025-07-24",
+        "where": "form footer, next to the form number"
+      }
+    ],
+    "form": "EPA Form 2004C 10.24AUWF",
+    "formCode": "2004C",
+    "reference": "P-2020-0063DEWOEP",
+    "applicationNumberPrinted": "21 810 318.2 - 1201",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "0ed1546c4ecef93901c6b47876a9a94d38260f037868e342216c10674045441e",
+    "bytes": 229221,
+    "pages": 5,
+    "textLayer": false
+  },
+  {
+    "row": 14,
+    "file": "documents/14.pdf",
+    "issuer": "EPO",
+    "kind": "decision-to-grant",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2025-12-04",
+    "dateOnDocument": "2025-12-04",
+    "otherDates": [
+      {
+        "date": "2025-11-28",
+        "where": "form footer, next to the form number, printed as (28/11/25)"
+      },
+      {
+        "date": "2025-11-28",
+        "where": "\"zur Poststelle am: 28.11.25\" beside the footer"
+      }
+    ],
+    "form": "EPA Form 2006A 05.23",
+    "formCode": "2006A",
+    "reference": "P-2020-0063DEWOEP",
+    "applicationNumberPrinted": "21810318.2 - 1201 / 4248526",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "aa701c25794f65c661192a001651d24802d5aafeb5e65cc3f555f80988e03299",
+    "bytes": 106175,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 15,
+    "file": "documents/15.pdf",
+    "issuer": "EPO",
+    "kind": "r79-1-notice-of-opposition",
+    "language": "de",
+    "registerDocumentId": null,
+    "registerListDate": "2026-10-14",
+    "dateOnDocument": "2026-10-14",
+    "otherDates": [
+      {
+        "date": "2026-10-06",
+        "where": "form footer, next to the form number, printed as (06/10/26)"
+      }
+    ],
+    "form": "EPA Form 2317A 04.22",
+    "formCode": "2317A",
+    "reference": "P-2020-0063DEWOEP",
+    "applicationNumberPrinted": "21810318.2 - 1201 / 4248526",
+    "readBy": "a person, from the page image of page 1, 2026-11-05",
+    "downloadedBy": "the founder, in a browser, from the register \"All documents\" page",
+    "downloadedAt": "2026-11-05",
+    "sha256": "124f5b7b8777cd92ed04a7c59f590fe75fc060a456199bcc32bd35041e4e983d",
+    "bytes": 34582,
+    "pages": 1,
+    "textLayer": false
+  }
+]

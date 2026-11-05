@@ -1,0 +1,24 @@
+{
+  "name": "flowleap-seed-firm",
+  "version": "0.1.0",
+  "description": "The shared seed firm of FlowLeap Patent AI: real public EP files copied exactly, with fictional firm users, groups and walls.",
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "cases.json",
+    "firm",
+    "matters"
+  ],
+  "scripts": {
+    "test": "node --test 'test/*.test.mjs'",
+    "check": "node check/check-seed.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

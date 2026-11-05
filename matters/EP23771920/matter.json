@@ -1,0 +1,22 @@
+{
+  "id": "R2",
+  "application": "EP23771920",
+  "firstPublication": "EP4584557A1",
+  "registerUrl": "https://register.epo.org/application?number=EP23771920&lng=en",
+  "title": "APPARATUS AND METHOD FOR POSITION ENCODING",
+  "client": "renishaw",
+  "fileNumber": "SF-2023-0045",
+  "type": "prosecution",
+  "language": "en",
+  "languageSource": "the language of the EPO letters in documents.json",
+  "responsible": [
+    {
+      "user": "lena"
+    },
+    {
+      "user": "anna",
+      "from": "2026-10-15"
+    }
+  ],
+  "coAttorneys": []
+}
