@@ -1,5 +1,5 @@
 [
   { "id": "wago", "publishedNames": ["Wago Verwaltungsgesellschaft mbH"], "aiUse": "allowed", "note": "AI allowed with a cloud model (decision D7)" },
   { "id": "phoenix", "publishedNames": ["PHOENIX CONTACT GmbH & Co. KG", "Phoenix Contact GmbH & Co. KG"], "aiUse": "local-model-only", "note": "Local model only (decision D7). The register spells the applicant in two ways; both stay as published." },
-  { "id": "renishaw", "publishedNames": ["Renishaw plc"], "aiUse": null, "note": "No AI wishes recorded (decision D7)" }
+  { "id": "renishaw", "publishedNames": ["Renishaw plc"], "aiUse": "allowed", "note": "AI allowed with a cloud model (founder, 2026-11-07: the first demo on SF-2023-0045 needs a run; until then no wishes were recorded under D7)" }
 ]
