@@ -1,0 +1,201 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4170443A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.119Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "024d6805e7ad9b24ff07d99c0d9e9ea190fe00aac53c2e6704fd9eb3132ffe72",
+  "body": {
+    "docId": "EP4170443.A1",
+    "title": "CONTROL DEVICE AND METHOD FOR SWITCHING INPUT/OUTPUT UNITS OF A CONTROL DEVICE",
+    "abstract": "[0001]    Steuerungseinrichtung 1 mit einer Steuerungseinheit 2, 5, die über einen Datenübertragungskanal 3, 6 zum Austausch von Prozessdaten P mit mindestens einer Ein- und/oder Ausgabeeinheit 10 in Kommunikationsverbindung steht, dadurch gekennzeichnet, dass die Steuerungseinrichtung 1 über den Ein-/Ausgabeeinheiten 10 zugeordnete, vorgegebene Energiespar-Prozessdaten V für Energiesparzustände E<n> der Ein-/Ausgabeeinheiten 10 verfügt, wobei die Ein- und/oder Ausgabeeinheit 10 anstelle der ausgetauschten Prozessdaten P im Energiesparzustand auf die vorgegebenen Energiespar-Prozessdaten V zugreift, wenn ein in der Ein- und/oder Ausgabeeinheit 10 parametriertes Umschaltkriterium C erfüllt ist. Weiterhin wird ein Verfahren zum Umschalten von Ein- und/oder Ausgabeeinheiten 10 einer Steuerungseinrichtung 1 in einen Energiesparzustand beansprucht.",
+    "applicants": [
+      "WAGO VERWALTUNGS GMBH [DE]",
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "inventors": [
+      "BUDA AUREL [DE]",
+      "GALKA PETER [DE]",
+      "HILGERS DETMAR [DE]",
+      "BUDA, Aurel",
+      "GALKA, Peter",
+      "HILGERS, Detmar"
+    ],
+    "ipc": [
+      "G05B 19/042"
+    ],
+    "cpc": [
+      "G05B 19/0423",
+      "G05B 19/0426",
+      "G05B 2219/25289"
+    ],
+    "dates": {
+      "filing": "20140515",
+      "publication": "20230426",
+      "priority": [
+        {
+          "date": "20130517",
+          "country": "DE",
+          "epodocApplication": "DE201310105097",
+          "docdbApplication": "DE102013105097 (A)",
+          "originalApplication": "102013105097",
+          "kind": "A"
+        },
+        {
+          "date": "20140515",
+          "country": "EP",
+          "epodocApplication": "EP20140724725",
+          "docdbApplication": "EP14724725 (A)",
+          "originalApplication": "14724725.8",
+          "kind": "A"
+        },
+        {
+          "date": "20140515",
+          "country": "EP",
+          "epodocApplication": "WO2014EP59908",
+          "docdbApplication": "EP2014059908 (W)",
+          "originalApplication": null,
+          "kind": "W"
+        }
+      ]
+    },
+    "citedReferences": [
+      {
+        "docId": "DE102009047803",
+        "citedBy": "applicant",
+        "kind": "A1"
+      },
+      {
+        "docId": "DE102009047804",
+        "citedBy": "applicant",
+        "kind": "A1"
+      },
+      {
+        "docId": "DE200904780",
+        "citedBy": "applicant",
+        "kind": "A"
+      },
+      {
+        "docId": "DE102012211867",
+        "citedBy": "applicant",
+        "kind": "B3",
+        "date": "20131002",
+        "category": "P"
+      },
+      {
+        "docId": "WO2007149688",
+        "citedBy": "applicant",
+        "kind": "A2",
+        "date": "20071227"
+      },
+      {
+        "docId": "DE102011122515",
+        "citedBy": "applicant",
+        "kind": "A1",
+        "date": "20130704",
+        "category": "P"
+      },
+      {
+        "docId": "EP2455828",
+        "citedBy": "applicant",
+        "kind": "A1",
+        "date": "20120523"
+      },
+      {
+        "docId": "EP2538609",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20121226",
+        "phase": "national-search-report",
+        "category": "X",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "X",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "DE10161834",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20030626",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "EP2400360",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20111228",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "EP2202599",
+        "citedBy": "examiner",
+        "kind": "A2",
+        "date": "20100630",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "",
+        "citedBy": "examiner",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ],
+        "npl": "- ANONYMOUS: \"Common Application Profile PROFIenergy - Technical Specificationfor PROFINET - Version 1.1\", August 2012 (2012-08-01), XP055131803, Retrieved from the Internet <URL:http://www.felser.ch/download/normen/pno/3802_V11.pdf>"
+      }
+    ],
+    "documentReference": {
+      "publicationNumber": "EP4170443A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP4170443A1:bibliography"
+  }
+}

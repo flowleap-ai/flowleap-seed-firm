@@ -1,0 +1,61 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4569300A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "cf5edc9f9cfd8f5220500a5b2d98907ecf6ebea7e5af772d7369133fc833dc5d",
+  "body": {
+    "docId": "EP4569300.A1",
+    "title": "SCALE",
+    "abstract": null,
+    "applicants": [
+      "RENISHAW PLC [GB]",
+      "Renishaw plc"
+    ],
+    "inventors": [
+      "HENSHAW JAMES REYNOLDS [GB]",
+      "EVANS FINLAY JONATHAN [GB]",
+      "BRAMTON GEORGE FREDERICK [GB]",
+      "HENSHAW, James, Reynolds",
+      "EVANS, Finlay, Jonathan",
+      "BRAMTON, George, Frederick"
+    ],
+    "ipc": [
+      "G01D 5/244",
+      "G01D 5/347"
+    ],
+    "cpc": [
+      "G01D 5/24442",
+      "G01D 5/34707"
+    ],
+    "dates": {
+      "filing": "20230807",
+      "publication": "20250618",
+      "priority": [
+        {
+          "date": "20220809",
+          "country": "GB",
+          "epodocApplication": "GB20220011615",
+          "docdbApplication": "GB202211615 (A)",
+          "originalApplication": "202211615",
+          "kind": "A"
+        },
+        {
+          "date": "20230807",
+          "country": "GB",
+          "epodocApplication": "WO2023GB52079",
+          "docdbApplication": "GB2023052079 (W)",
+          "originalApplication": "GB2023052079",
+          "kind": "W"
+        }
+      ]
+    },
+    "documentReference": {
+      "publicationNumber": "EP4569300A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP4569300A1:bibliography"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP3935617A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.118Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "4bdac3cc5ad387f31ab1f3816c88d4ae70f97edcf4a3f01918c4ebc09022e384",
+  "body": {
+    "docId": "EP3935617.A1",
+    "title": "LABELLING MATERIAL FOR MARKING ELECTRICAL INSTALLATIONS AND METHOD FOR PRODUCING A LABELLING STRIP",
+    "abstract": null,
+    "applicants": [
+      "PHOENIX CONTACT GMBH & CO [DE]",
+      "PHOENIX CONTACT GmbH & Co. KG"
+    ],
+    "inventors": [
+      "KLAGES KILIAN [DE]",
+      "HOFMANN ALEXANDER [DE]",
+      "KLAGES, Kilian",
+      "HOFMANN, Alexander"
+    ],
+    "ipc": [
+      "G09F 3/06",
+      "G09F 3/16",
+      "G09F 3/20",
+      "H01R 13/46",
+      "H01R 9/24",
+      "H01R 9/26"
+    ],
+    "cpc": [
+      "G09F 3/06",
+      "G09F 3/16",
+      "G09F 3/20",
+      "H01R 13/465",
+      "H01R 9/2475",
+      "H01R 9/2683"
+    ],
+    "dates": {
+      "filing": "20200219",
+      "publication": "20220112",
+      "priority": [
+        {
+          "date": "20190305",
+          "country": "DE",
+          "epodocApplication": "DE201910105526",
+          "docdbApplication": "DE102019105526 (A)",
+          "originalApplication": "102019105526",
+          "kind": "A"
+        },
+        {
+          "date": "20200219",
+          "country": "EP",
+          "epodocApplication": "WO2020EP54334",
+          "docdbApplication": "EP2020054334 (W)",
+          "originalApplication": "EP2020054334",
+          "kind": "W"
+        }
+      ]
+    },
+    "citedReferences": [
+      {
+        "docId": "US8905858",
+        "citedBy": "unknown",
+        "kind": "B2",
+        "date": "20141209",
+        "phase": "national-examination"
+      }
+    ],
+    "documentReference": {
+      "publicationNumber": "EP3935617A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP3935617A1:bibliography"
+  }
+}

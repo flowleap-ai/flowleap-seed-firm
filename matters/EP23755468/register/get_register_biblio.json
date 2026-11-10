@@ -1,0 +1,36 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4569300A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "ddf63b321f0fa14cdfb3116a331fee8f5d8edf0938e62af1fece34d540984c7c",
+  "body": {
+    "docId": "EP4569300",
+    "title": "SCALE",
+    "applicants": [
+      "Renishaw plc"
+    ],
+    "representatives": [
+      {
+        "name": "Dunn, Paul Edward",
+        "country": "GB",
+        "address": [
+          "Renishaw plc",
+          "Patent Department",
+          "New Mills",
+          "Wotton-under-Edge, Glos. GL12 8JR"
+        ]
+      }
+    ],
+    "representativesChangeGazette": null,
+    "representativesChangeDate": "20250802",
+    "opponents": [],
+    "status": "Examination is in progress",
+    "dates": {
+      "filing": "20230807",
+      "publication": "20250618"
+    }
+  }
+}

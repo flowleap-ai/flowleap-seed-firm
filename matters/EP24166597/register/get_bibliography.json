@@ -1,0 +1,221 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4443656A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "6ef9f5932b13d67693eb742240b5df2af3bba017ec25ef3d63bb0a4fb4753d20",
+  "body": {
+    "docId": "EP4443656.A1",
+    "title": "CONTACT ASSEMBLY FOR CONNECTING AN ELECTRICAL CONDUCTOR AND CONDUCTOR CONNECTION TERMINAL HAVING SUCH A CONTACT ASSEMBLY",
+    "abstract": "[0001]    Die Erfindung betrifft eine Kontaktbaugruppe zum Anschluss eines elektrischen Leiters mittels Federkraftklemmung, mit folgenden Merkmalen:\na) die Kontaktbaugruppe hat ein Stromschienenbauteil, das aus einem Stromschienenmaterial gefertigt ist, wobei das Stromschienenbauteil als ein parallel zur Leitereinführrichtung eines elektrischen Leiters in die Kontaktbaugruppe zumindest abschnittsweise abgewinkeltes Profilbauteil ausgebildet ist,\nb) die Kontaktbaugruppe hat ein Federbauteil mit einer Klemmfeder, wobei das Federbauteil aus einem Federmaterial gefertigt ist, mit dem Stromschienenbauteil mechanisch verbunden ist und zum Festklemmen eines elektrischen Leiters mittels der Klemmfeder an einer Klemmstelle am Stromschienenbauteil eingerichtet ist,\nc) die Kontaktbaugruppe hat eine Leitereinführöffnung und einen sich an die Leitereinführöffnung anschließenden Leitereinführkanal, durch den ein an der Leitereinführöffnung eingeführter elektrischer Leiter zur Klemmstelle führbar ist,\nd) der Leitereinführkanal ist durch wenigstens eine erste Wand, eine zweite Wand und eine dritte Wand gebildet, wobei die erste Wand im Wesentlichen parallel zur zweiten Wand angeordnet ist und die dritte Wand sich wenigstens von der ersten Wand zur zweiten Wand erstreckt, wobei der elektrische Leiter in dem zwischen der ersten Wand, der zweiten Wand und der dritten Wand gebildeten Raum in die Kontaktbaugruppe einführbar ist.\n[0002]    Die Erfindung betrifft außerdem eine Leiteranschlussklemme mit wenigstens einer solchen Kontaktbaugruppe.",
+    "applicants": [
+      "WAGO VERWALTUNGS GMBH [DE]",
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "inventors": [
+      "ZIER SERGEJ [DE]",
+      "WEBER SEBASTIAN [DE]",
+      "ISAAK SERGEJ [DE]",
+      "ZIER, Sergej",
+      "Weber, Sebastian",
+      "ISAAK, Sergej"
+    ],
+    "ipc": [
+      "H01R 11/05",
+      "H01R 4/48",
+      "H01R 9/24"
+    ],
+    "cpc": [
+      "H01R 25/142",
+      "H01R 25/145",
+      "H01R 4/4809",
+      "H01R 4/4811",
+      "H01R 4/48185",
+      "H01R 11/05",
+      "H01R 4/4816",
+      "H01R 4/483",
+      "H01R 9/2491"
+    ],
+    "dates": {
+      "filing": "20240327",
+      "publication": "20241009",
+      "priority": [
+        {
+          "date": "20230327",
+          "country": "DE",
+          "epodocApplication": "DE202320101521U",
+          "docdbApplication": "DE202023101521 (U)",
+          "originalApplication": "202023101521 U",
+          "kind": "U"
+        }
+      ]
+    },
+    "citedReferences": [
+      {
+        "docId": "DE202014101856",
+        "citedBy": "applicant",
+        "kind": "U1"
+      },
+      {
+        "docId": "DE8800750",
+        "citedBy": "examiner",
+        "kind": "U1",
+        "date": "19880310",
+        "phase": "national-search-report",
+        "category": "X,I,A",
+        "relevantClaims": "1-3,5,9-18",
+        "categoryClaims": [
+          {
+            "category": "X",
+            "claims": "1-3,5,9-18"
+          },
+          {
+            "category": "I",
+            "claims": "8"
+          },
+          {
+            "category": "A",
+            "claims": "4,6-7"
+          }
+        ],
+        "relevantPassages": [
+          "* page  5  - page  8, figures 1-5 *"
+        ]
+      },
+      {
+        "docId": "DE10152519",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20030508",
+        "phase": "national-search-report",
+        "category": "X,I",
+        "relevantClaims": "1-10,12-13",
+        "categoryClaims": [
+          {
+            "category": "X",
+            "claims": "1-10,12-13"
+          },
+          {
+            "category": "I",
+            "claims": "14-15"
+          }
+        ],
+        "relevantPassages": [
+          "* paragraphs  [0026] - [0042], figures 1-5 *"
+        ]
+      },
+      {
+        "docId": "US2011318975",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20111229",
+        "phase": "national-search-report",
+        "category": "X,A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "X",
+            "claims": "1-15"
+          },
+          {
+            "category": "A",
+            "claims": "16-18"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "EP3145031",
+        "citedBy": "examiner",
+        "kind": "A2",
+        "date": "20170322",
+        "phase": "national-search-report",
+        "category": "X,I",
+        "relevantClaims": "1-10,13",
+        "categoryClaims": [
+          {
+            "category": "X",
+            "claims": "1-10,13"
+          },
+          {
+            "category": "I",
+            "claims": "14-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "DE202017102204",
+        "citedBy": "examiner",
+        "kind": "U1",
+        "date": "20180717",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "14-18",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "14-18"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "US2016240970",
+        "citedBy": "examiner",
+        "kind": "A1",
+        "date": "20160818",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "14-18",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "14-18"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "EP3108542",
+        "citedBy": "examiner",
+        "kind": "B1",
+        "date": "20190403",
+        "phase": "national-search-report",
+        "category": "A",
+        "relevantClaims": "1-15",
+        "categoryClaims": [
+          {
+            "category": "A",
+            "claims": "1-15"
+          }
+        ],
+        "relevantPassages": [
+          "* the whole document *"
+        ]
+      },
+      {
+        "docId": "DE202014104661",
+        "citedBy": "unknown",
+        "kind": "U1",
+        "date": "20141028",
+        "phase": "national-examination"
+      }
+    ],
+    "documentReference": {
+      "publicationNumber": "EP4443656A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP4443656A1:bibliography"
+  }
+}

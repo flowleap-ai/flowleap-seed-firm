@@ -1,0 +1,34 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP3935617A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.116Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "52c55835352ae977f929249e74b0d21aef6f1935e41db096e2a7a52c32e2309d",
+  "body": {
+    "docId": "EP3935617",
+    "title": "LABELLING MATERIALS FOR MARKING ELECTRICAL INSTALLATIONS AND METHOD FOR PRODUCING A LABELLING STRIP",
+    "applicants": [
+      "PHOENIX CONTACT GmbH & Co. KG"
+    ],
+    "representatives": [
+      {
+        "name": "Richly & Ritschel Patentanwälte PartG mbB",
+        "country": "DE",
+        "address": [
+          "Sattlerweg 20",
+          "51429 Bergisch Gladbach"
+        ]
+      }
+    ],
+    "representativesChangeGazette": "2022/02",
+    "representativesChangeDate": "20211210",
+    "opponents": [],
+    "status": "The application is deemed to be withdrawn",
+    "dates": {
+      "filing": "20200219",
+      "publication": "20220112"
+    }
+  }
+}

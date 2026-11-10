@@ -1,0 +1,34 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4584557A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "937ecb204a445d165fe66519426858100c0d404384deaa8db42b300387daafc0",
+  "body": {
+    "docId": "EP4584557",
+    "title": "APPARATUS AND METHOD FOR POSITION ENCODING",
+    "applicants": [
+      "Renishaw plc"
+    ],
+    "representatives": [
+      {
+        "name": "Dunn, Paul Edward, et al",
+        "country": "GB",
+        "address": [
+          "Renishaw plc Patent Department New Mills",
+          "Wotton-under-Edge, Glos. GL12 8JR"
+        ]
+      }
+    ],
+    "representativesChangeGazette": "2025/29",
+    "representativesChangeDate": "20250613",
+    "opponents": [],
+    "status": "Grant of patent is intended",
+    "dates": {
+      "filing": "20230906",
+      "publication": "20250716"
+    }
+  }
+}
