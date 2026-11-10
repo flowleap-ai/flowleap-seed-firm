@@ -2,6 +2,10 @@
   "name": "flowleap-seed-firm",
   "version": "0.1.0",
   "description": "The shared seed firm of FlowLeap Patent AI: real public EP files copied exactly, with fictional firm users, groups and walls.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowleap-ai/flowleap-seed-firm.git"
+  },
   "type": "module",
   "exports": {
     ".": "./index.mjs",
