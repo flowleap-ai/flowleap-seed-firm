@@ -19,7 +19,8 @@ const FIRM_ROLES = ['partner', 'attorney', 'formalities', 'assistant', 'administ
 const APP_ROLES = ['FlowLeap.User', 'FlowLeap.Administrator']
 const MAY_BE_RESPONSIBLE = ['partner', 'attorney']
 const DOCUMENT_KINDS = ['r71-3-communication', 'art94-3-communication', 'art94-3-annex', 'decision-to-grant',
-  'r112-1-loss-of-rights', 'r79-1-notice-of-opposition', 'text-intended-for-grant']
+  'r112-1-loss-of-rights', 'r79-1-notice-of-opposition', 'text-intended-for-grant', 'european-search-report',
+  'r69-fee-reminder']
 const UNDATED_KINDS = ['text-intended-for-grant']
 const REGISTER_TOOLS = ['search_register', 'get_register_biblio', 'get_register_events', 'get_legal_status', 'get_bibliography']
 

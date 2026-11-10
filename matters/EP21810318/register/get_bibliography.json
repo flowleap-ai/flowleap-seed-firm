@@ -1,0 +1,83 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4248526A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.119Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "604a7a39bbcf6ba8550afef72be4153d82d8f5710ca2be9f6d73f6e01b538705",
+  "body": {
+    "docId": "EP4248526.A1",
+    "title": "TERMINAL FOR ELECTRICAL CABLES",
+    "abstract": null,
+    "applicants": [
+      "PHOENIX CONTACT GMBH & CO [DE]",
+      "Phoenix Contact GmbH & Co. KG"
+    ],
+    "inventors": [
+      "BUSCH GORDON [DE]",
+      "POLLMANN STEPHAN [DE]",
+      "BUSCH, Gordon",
+      "POLLMANN, Stephan"
+    ],
+    "ipc": [
+      "H01R 11/05",
+      "H01R 11/09",
+      "H01R 4/48",
+      "H01R 9/24"
+    ],
+    "cpc": [
+      "H01R 11/05",
+      "H01R 11/09",
+      "H01R 13/502",
+      "H01R 13/639",
+      "H01R 4/4833",
+      "H01R 4/4846",
+      "H01R 9/2433",
+      "H01R 4/4821",
+      "H01R 9/245"
+    ],
+    "dates": {
+      "filing": "20211109",
+      "publication": "20230927",
+      "priority": [
+        {
+          "date": "20201117",
+          "country": "DE",
+          "epodocApplication": "DE202010130345",
+          "docdbApplication": "DE102020130345 (A)",
+          "originalApplication": "102020130345",
+          "kind": "A"
+        },
+        {
+          "date": "20211109",
+          "country": "EP",
+          "epodocApplication": "WO2021EP81087",
+          "docdbApplication": "EP2021081087 (W)",
+          "originalApplication": "EP2021081087",
+          "kind": "W"
+        }
+      ]
+    },
+    "citedReferences": [
+      {
+        "docId": "DE202010009253",
+        "citedBy": "applicant",
+        "kind": "U1",
+        "date": "20100916"
+      },
+      {
+        "docId": "EP4205241",
+        "citedBy": "applicant",
+        "kind": "A1",
+        "date": "20230705",
+        "category": "E"
+      }
+    ],
+    "documentReference": {
+      "publicationNumber": "EP4248526A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP4248526A1:bibliography"
+  }
+}

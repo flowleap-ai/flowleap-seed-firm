@@ -1,0 +1,36 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4443656A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "599026043ded3422d3bfc7f9caff6aa1519e4427c962147f2017f9eade6c5b64",
+  "body": {
+    "docId": "EP4443656",
+    "title": "CONTACT ASSEMBLY FOR CONNECTING AN ELECTRICAL CONDUCTOR AND CONDUCTOR CONNECTION TERMINAL HAVING SUCH A CONTACT ASSEMBLY",
+    "applicants": [
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "representatives": [
+      {
+        "name": "Günther, Constantin",
+        "country": "DE",
+        "address": [
+          "Meissner Bolte Patentanwälte",
+          "Rechtsanwälte Partnerschaft mbB",
+          "Plathnerstraße 3A",
+          "30175 Hannover"
+        ]
+      }
+    ],
+    "representativesChangeGazette": "2024/41",
+    "representativesChangeDate": "20240906",
+    "opponents": [],
+    "status": "Examination is in progress",
+    "dates": {
+      "filing": "20240327",
+      "publication": "20241009"
+    }
+  }
+}

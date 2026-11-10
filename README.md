@@ -46,11 +46,11 @@ A user may see a matter when the user is in its client group (`client-<id>`) or 
 | `matters/<application>/matter.json` | The firm-side fields of a matter and its register URL |
 | `matters/<application>/documents.json` | One entry per PDF: what a person read from the page, and what `add-documents.mjs` measured |
 | `matters/<application>/documents/<NN>.pdf` | The register PDF; NN is the row of the download list |
-| `matters/<application>/register/<tool>.json` | The FlowLeap response, its input, fetch time and SHA-256 (not yet fetched, decision D6) |
+| `matters/<application>/register/<tool>.json` | The FlowLeap response, its input, fetch time, source and SHA-256: `get_register_biblio` and `get_bibliography` of each matter |
 
 ## The documents
 
-18 EPO documents of the download list of the proposal. The founder downloaded them on 2026-11-05 from each matter's "All documents" page. Row 12 (a WIPO copy of the PCT priority document) is not in the package: the applicant wrote it, and the EPO letters already cover its case (decision D3).
+20 EPO documents. Rows 1 to 19 are the download list of the proposal; the founder downloaded them on 2026-11-05 from each matter's "All documents" page. Rows 20 and 21 of `EP24166597` (the European search report and the Rule 69 reminder to pay the designation and examination fees) came on 2026-11-10 from the same page, with "Selected documents", for the MyEPO double of flowleap-harness; the founder passed the register bot check. Row 12 (a WIPO copy of the PCT priority document) is not in the package: the applicant wrote it, and the EPO letters already cover its case (decision D3).
 
 What the PDFs show:
 
@@ -59,7 +59,7 @@ What the PDFs show:
 - **German letters say "EPA Form", "Datum", "Zeichen" and "Anmeldung Nr."**; English letters say "EPO Form", "Date", "Ref." and "Application No.".
 - **The "Ref." field is the reference of the real representative**, not the seed file number (decision D4).
 
-The read fields of `documents.json` (kind, dates, form, reference, printed application number) were read by a person from the page images. `registerDocumentId` is still empty for each document: the register shows the id on its "All documents" page, and a person copies it there.
+The read fields of `documents.json` (kind, dates, form, reference, printed application number) were read by a person from the page images. `registerDocumentId` is empty for rows 1 to 19: the register shows the id on its "All documents" page (the name of the row checkbox), and a person copies it there.
 
 ## Checks
 
@@ -79,7 +79,7 @@ An error fails the check. An open item is a named gap that a person must fill; i
 
 ## Fetch and compare the register data
 
-`node fetch/fetch-register.mjs` writes the register snapshots through the FlowLeap CLI (`search_register`, `get_register_biblio`, `get_register_events`, `get_legal_status`, `get_bibliography`). `node check/compare.mjs` fetches them again and fails on any difference, with the matter, the tool and the JSON path. Both need a FlowLeap account with a plan (decision D6). The CLI reads its own credentials; the scripts never read or print one. Neither script has run yet.
+`node fetch/fetch-register.mjs` writes the register snapshots through the FlowLeap CLI (`search_register`, `get_register_biblio`, `get_register_events`, `get_legal_status`, `get_bibliography`). `node check/compare.mjs` fetches them again and fails on any difference, with the matter, the tool and the JSON path. Both need a FlowLeap account with a plan (decision D6). The CLI reads its own credentials; the scripts never read or print one. On 2026-11-10 the CLI account answered `402 subscription_required`, so the `get_register_biblio` and `get_bibliography` snapshots came from the same FlowLeap tools through the FlowLeap MCP server; each snapshot's `source` says so. `compare.mjs` has not run, and the other three tools have no snapshot yet.
 
 ## License
 

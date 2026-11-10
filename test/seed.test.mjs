@@ -95,7 +95,7 @@ test('the check rejects an assistant who may confirm deadlines', () => {
 function checkWithSnapshot(application, tool, body) {
   return checkCopy(root => {
     const dir = join(root, 'matters', application, 'register')
-    mkdirSync(dir)
+    mkdirSync(dir, { recursive: true })
     writeFileSync(join(dir, `${tool}.json`), JSON.stringify({
       tool, input: {}, fetchedAt: '2026-11-05T00:00:00Z', source: 'test',
       sha256: createHash('sha256').update(canonicalJson(body)).digest('hex'), body,

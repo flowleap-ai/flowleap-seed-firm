@@ -1,0 +1,64 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4189782A2"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.118Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "f4703fb09ff24872f584cd9367f7f8932e331bf4224e893c7fbecfdfa0cc215e",
+  "body": {
+    "docId": "EP4189782.A2",
+    "title": "CONDUCTOR CONNECTION TERMINAL",
+    "abstract": null,
+    "applicants": [
+      "WAGO VERWALTUNGS GMBH [DE]",
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "inventors": [
+      "WITTE THOMAS [DE]",
+      "AHLDAG JÖRG [DE]",
+      "WITTE, Thomas",
+      "AHLDAG, Jörg"
+    ],
+    "ipc": [
+      "H01R 13/58",
+      "H01R 4/48",
+      "H01R 9/24"
+    ],
+    "cpc": [
+      "H01R 13/5812",
+      "H01R 4/4833",
+      "H01R 4/4835",
+      "H01R 4/4821",
+      "H01R 4/4852",
+      "H01R 9/2491"
+    ],
+    "dates": {
+      "filing": "20210726",
+      "publication": "20230607",
+      "priority": [
+        {
+          "date": "20200728",
+          "country": "DE",
+          "epodocApplication": "DE202010119864",
+          "docdbApplication": "DE102020119864 (A)",
+          "originalApplication": "102020119864",
+          "kind": "A"
+        },
+        {
+          "date": "20210726",
+          "country": "EP",
+          "epodocApplication": "WO2021EP70866",
+          "docdbApplication": "EP2021070866 (W)",
+          "originalApplication": "EP2021070866",
+          "kind": "W"
+        }
+      ]
+    },
+    "documentReference": {
+      "publicationNumber": "EP4189782A2",
+      "section": "bibliography"
+    },
+    "anchor": "EP4189782A2:bibliography"
+  }
+}

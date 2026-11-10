@@ -52,5 +52,54 @@
     "bytes": 791817,
     "pages": 9,
     "textLayer": false
+  },
+  {
+    "row": 20,
+    "file": "documents/20.pdf",
+    "issuer": "EPO",
+    "kind": "european-search-report",
+    "language": "de",
+    "registerDocumentId": "M0PZ57FWBKCYE9S",
+    "registerListDate": "2024-09-11",
+    "dateOnDocument": "2024-07-24",
+    "otherDates": [],
+    "form": "EPO FORM 1503 03.82 (P04C03)",
+    "formCode": "1503",
+    "reference": null,
+    "applicationNumberPrinted": "EP 24 16 6597",
+    "readBy": "a person, from the page image of page 1, 2026-11-10; dateOnDocument is the date of completion of the search (Abschlußdatum der Recherche), printed as 24. Juli 2024",
+    "downloadedBy": "Claude in the founder's Chrome, after the founder passed the register bot check, from the register \"All documents\" page (\"Selected documents\")",
+    "downloadedAt": "2026-11-10",
+    "sha256": "8b7d87064b1127fdb7123be8e18af988a6fd584b95af467491b12734332c7810",
+    "bytes": 70171,
+    "pages": 2,
+    "textLayer": false
+  },
+  {
+    "row": 21,
+    "file": "documents/21.pdf",
+    "issuer": "EPO",
+    "kind": "r69-fee-reminder",
+    "language": "de",
+    "registerDocumentId": "M2119WUL18QQOWC",
+    "registerListDate": "2024-10-14",
+    "dateOnDocument": "2024-10-14",
+    "otherDates": [
+      {
+        "date": "2024-10-09",
+        "where": "body: the date of the mention of the publication of the European search report"
+      }
+    ],
+    "form": "EPA Form 1081 04.24",
+    "formCode": "1081",
+    "reference": "V/WGO-1227-EP",
+    "applicationNumberPrinted": "24166597.5 - 1201 / 4443656",
+    "readBy": "a person, from the page image of page 1, 2026-11-10; the letter states the designation fee EUR 685,00 and the examination fee EUR 1915,00",
+    "downloadedBy": "Claude in the founder's Chrome, after the founder passed the register bot check, from the register \"All documents\" page (\"Selected documents\")",
+    "downloadedAt": "2026-11-10",
+    "sha256": "53545e28f3576a8b19ff2c65995f7e35bdeb935c54b07d845cccea788c23a0ad",
+    "bytes": 85810,
+    "pages": 2,
+    "textLayer": false
   }
 ]

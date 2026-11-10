@@ -1,0 +1,36 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4248526A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.119Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "7a276395aee39a4654fc944dd91f39315f0cb9c14c0b820d3f3210df0ffa9b3e",
+  "body": {
+    "docId": "EP4248526",
+    "title": "TERMINAL FOR ELECTRICAL WIRE",
+    "applicants": [
+      "Phoenix Contact GmbH & Co. KG"
+    ],
+    "representatives": [],
+    "representativesChangeGazette": null,
+    "representativesChangeDate": null,
+    "opponents": [
+      {
+        "name": "HARTING Electric Stiftung & Co. KG",
+        "country": "DE",
+        "address": [
+          "Wilhelm-Harting-Str. 1",
+          "32339 Espelkamp"
+        ],
+        "filingDate": "20260930",
+        "status": "ADMISSIBLE"
+      }
+    ],
+    "status": "The patent has been granted",
+    "dates": {
+      "filing": "20211109",
+      "publication": "20230927"
+    }
+  }
+}

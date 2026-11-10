@@ -1,0 +1,36 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4189782A2"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.118Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "1929845ac790cb3ae3d7f304f25ba797ca4f64d8dc04fb86f8c01c6b427f0492",
+  "body": {
+    "docId": "EP4189782",
+    "title": "CONDUCTOR CONNECTION TERMINAL",
+    "applicants": [
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "representatives": [
+      {
+        "name": "Günther, Constantin, et al",
+        "country": "DE",
+        "address": [
+          "Meissner Bolte Patentanwälte",
+          "Rechtsanwälte Partnerschaft mbB",
+          "Plathnerstraße 3A",
+          "30175 Hannover"
+        ]
+      }
+    ],
+    "representativesChangeGazette": "2023/23",
+    "representativesChangeDate": "20230505",
+    "opponents": [],
+    "status": "No opposition filed within time limit",
+    "dates": {
+      "filing": "20210726",
+      "publication": "20230607"
+    }
+  }
+}

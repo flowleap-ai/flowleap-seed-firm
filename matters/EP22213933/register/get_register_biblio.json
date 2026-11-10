@@ -1,0 +1,34 @@
+{
+  "tool": "get_register_biblio",
+  "input": {
+    "patent_number": "EP4170443A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.119Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "ab1c4a09e9b9288ebe765814c80fe550681f5d384157f42378628883cd7f7ee2",
+  "body": {
+    "docId": "EP4170443",
+    "title": "CONTROL DEVICE AND METHOD FOR SWITCHING INPUT/OUTPUT UNITS OF A CONTROL DEVICE",
+    "applicants": [
+      "Wago Verwaltungsgesellschaft mbH"
+    ],
+    "representatives": [
+      {
+        "name": "Bardehle Pagenberg Partnerschaft mbB Patentanwälte Rechtsanwälte",
+        "country": "DE",
+        "address": [
+          "Prinzregentenplatz 7",
+          "81675 München"
+        ]
+      }
+    ],
+    "representativesChangeGazette": "2023/17",
+    "representativesChangeDate": "20230324",
+    "opponents": [],
+    "status": "Grant of patent is intended",
+    "dates": {
+      "filing": "20140515",
+      "publication": "20230426"
+    }
+  }
+}

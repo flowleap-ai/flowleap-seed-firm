@@ -1,0 +1,65 @@
+{
+  "tool": "get_bibliography",
+  "input": {
+    "patent_number": "EP4584557A1"
+  },
+  "fetchedAt": "2026-11-10T07:48:42.120Z",
+  "source": "FlowLeap MCP server, the same tool; the FlowLeap CLI account answered 402 subscription_required on 2026-11-10",
+  "sha256": "56f4cebabd9d6ccd4d59d9efe3d3162596528798e35da8b298975cf42580c1ba",
+  "body": {
+    "docId": "EP4584557.A1",
+    "title": "ENCODER APPARATUS",
+    "abstract": null,
+    "applicants": [
+      "RENISHAW PLC [GB]",
+      "Renishaw plc"
+    ],
+    "inventors": [
+      "FISHER HARRISON CLINTON [GB]",
+      "GORDON-INGRAM IAIN ROBERT [GB]",
+      "FISHER, Harrison, Clinton",
+      "GORDON-INGRAM, Iain, Robert"
+    ],
+    "ipc": [
+      "G01D 5/244",
+      "G01D 5/245",
+      "G01D 5/347"
+    ],
+    "cpc": [
+      "G01D 5/2448",
+      "G01D 5/2455",
+      "G01D 5/34715",
+      "G01D 5/34792",
+      "G06T 7/73",
+      "G06T 2207/20056",
+      "G06T 2207/30204"
+    ],
+    "dates": {
+      "filing": "20230906",
+      "publication": "20250716",
+      "priority": [
+        {
+          "date": "20220908",
+          "country": "EP",
+          "epodocApplication": "EP20220275123",
+          "docdbApplication": "EP22275123 (A)",
+          "originalApplication": "22275123",
+          "kind": "A"
+        },
+        {
+          "date": "20230906",
+          "country": "GB",
+          "epodocApplication": "WO2023GB52299",
+          "docdbApplication": "GB2023052299 (W)",
+          "originalApplication": "GB2023052299",
+          "kind": "W"
+        }
+      ]
+    },
+    "documentReference": {
+      "publicationNumber": "EP4584557A1",
+      "section": "bibliography"
+    },
+    "anchor": "EP4584557A1:bibliography"
+  }
+}
