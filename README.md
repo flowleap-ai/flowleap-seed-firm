@@ -46,6 +46,7 @@ A user may see a matter when the user is in its client group (`client-<id>`) or 
 | `matters/<application>/matter.json` | The firm-side fields of a matter and its register URL |
 | `matters/<application>/documents.json` | One entry per PDF: what a person read from the page, and what `add-documents.mjs` measured |
 | `matters/<application>/documents/<NN>.pdf` | The register PDF; NN is the row of the download list |
+| `matters/<application>/text-fixtures/<NN>.flowleap-ocr-text.{txt,pdf}` | A test fixture that FlowLeap made, not a register copy: the text of letter NN by OCR, and the PDF with a text layer that `fetch/make-text-fixtures.mjs` writes from it (see [Text fixtures](#text-fixtures-made-by-flowleap)) |
 | `matters/<application>/register/<tool>.json` | The FlowLeap response, its input, fetch time, source and SHA-256: `get_register_biblio` and `get_bibliography` of each matter |
 
 ## The documents
@@ -60,6 +61,18 @@ What the PDFs show:
 - **The "Ref." field is the reference of the real representative**, not the seed file number (decision D4).
 
 The read fields of `documents.json` (kind, dates, form, reference, printed application number) were read by a person from the page images. `registerDocumentId` is empty for rows 1 to 19: the register shows the id on its "All documents" page (the name of the row checkbox), and a person copies it there.
+
+## Text fixtures made by FlowLeap
+
+The register copies of the seed are scans with no text layer. A MyEPO Mailbox letter has one (founder decision of 2026-11-12, from one sandbox letter). So, to test the chain that reads a letter's text (the period of an Art. 94(3) letter, and the agent that reads the examiner's objections), the four Form 2001 letters (rows 4, 6, 8 and 16) have a text fixture. **These fixtures are made by FlowLeap. They are not EPO files and not MyEPO Mailbox files.**
+
+- **How they are made.** Mistral OCR (`mistral-ocr-latest`, 2026-11-12) read each register copy. The OCR text is in `text-fixtures/<NN>.flowleap-ocr-text.txt`, one `=== page N of M: <register file> page K ===` line per page, with the images left out and the tables written as lines. `node fetch/make-text-fixtures.mjs` writes `<NN>.flowleap-ocr-text.pdf` from it: one PDF page for each page of the register copies, plain Helvetica text in reading order, and no date, so the same text gives the same bytes. `npm run check` fails when a PDF differs from its text.
+- **How they are marked.** The file name says `flowleap-ocr-text`. The PDF's Producer and Subject say "FlowLeap test fixture: text from OCR of the public EP Register copy, not a Mailbox file". The `textFixture` of the letter's entry in `documents.json` names its sources, the OCR, the check by a person, the fixes and the changes. `check/check-seed.mjs` refuses a fixture without the mark, and a file in `text-fixtures/` that no letter names.
+- **The enclosure.** A Form 2001 letter encloses its reasons (EPO Form 2906); the register lists them as a separate document. Where the seed has them, the fixture adds them after the letter, page for page, so the letter's text holds the examiner's objections: row 6 with row 7 (2 + 9 pages), and row 16 with row 17 (2 + 3 pages). Rows 4 and 8 have no Form 2906 in the seed, so their fixtures hold only the 2 pages of the letter. That a MyEPO Mailbox letter holds the communication and its enclosure in one PDF is an assumption, **not verified on a real Mailbox file**. The enclosure never comes first: page 1 of every fixture is page 1 of the letter, and the period reader of flowleap-os reads page 1 only, so the enclosure can neither be page 1 nor add a second period.
+- **What was checked.** A person compared the application number, the date, the reference, the form number and the period line of page 1 of each fixture with the page image of its register copy. No field needed a fix. The other text is the OCR text as Mistral gave it.
+- **What they do not test.** The layout of a fixture is not the layout of a real EPO letter: the lines, the fonts, the line breaks and the positions differ, and the PDF has no images. These fixtures test the chain and the agent. They do not show that the period reader (flowleap-os `lib/record/period.mjs`) fits real Mailbox files.
+
+The scans in `documents/` do not change. A consumer chooses the fixture explicitly (`document.textFixture.path`); the MyEPO double of flowleap-harness delivers a scan unless a test asks for the text version.
 
 ## Checks
 

@@ -1,0 +1,343 @@
+=== page 1 of 11: documents/06.pdf page 1 ===
+Europäisches
+Patentamt
+European
+Patent Office
+Office européen
+des brevets
+
+Europäisches Patentamt
+80298 MÜNCHEN
+DEUTSCHLAND
+
+Haben Sie Fragen zu dieser Mitteilung?
+Kontaktieren Sie die Kundenbetreuung
+unter www.www.bm-bomtadt
+
+Günther, Constantin
+Meissner Bolte Patentanwälte
+Rechtsanwälte Partnerschaft mbB
+Plathnerstraße 3A
+30175 Hannover
+ALLEMAGNE
+
+Anmeldung Nr. 24 166 597.5 - 1201    Zeichen V/WGO-1227-EP    Datum 18.09.2026
+Anmelder Wago Verwaltungsgesellschaft mbH
+
+Mitteilung gemäß Artikel 94 (3) EPÜ
+
+Die Prüfung der obengenannten Anmeldung hat ergeben, dass sie den Erfordernissen des Europäischen Patentübereinkommens aus den beigefügten Gründen nicht genügt. Werden die genannten Mängel nicht behoben, so kann die Anmeldung nach Artikel 97 (2) EPÜ zurückgewiesen werden.
+
+Sie werden aufgefordert, innerhalb einer Frist
+
+von 4 Monaten
+
+gerechnet von der Zustellung dieses Bescheides, Ihre Stellungnahme einzureichen und die angeführten Mängel, soweit diese behebbar sind, zu beseitigen. Die Frist berechnet sich nach den Bestimmungen der Regeln 126 (2), 131 (2) und (4) EPÜ. Änderungen zur Beschreibung, zu den Ansprüchen und den Zeichnungen sind gegebenenfalls innerhalb der genannten Frist in einem Exemplar auf gesonderten Blättern (R. 50 (1) EPÜ) einzureichen.
+
+Wenn Sie Änderungen einreichen, müssen Sie diese kennzeichnen und ihre Grundlage in der Anmeldung in der ursprünglich eingereichten Fassung angeben. Wird eines dieser Erfordernisse nicht erfüllt, kann dies zu einer Mitteilung der Prüfungsabteilung führen, in der Sie zur Beseitigung dieses Mangels aufgefordert werden (R. 137 (4) EPÜ).
+
+Falls Sie die Anmeldung innerhalb der oben genannten Frist zurücknehmen, wird die Prüfungsgebühr zu 50% zurückerstattet (Art. 11 (b) GebO).
+
+Unterlassen Sie es, auf diese Aufforderung rechtzeitig zu antworten, so gilt die europäische Anmeldung als zurückgenommen (Art. 94 (4) EPÜ).
+
+Einschreiben
+
+EPA Form 2001 04.25AUWF (15.09.2026)
+
+=== page 2 of 11: documents/06.pdf page 2 ===
+Anmeldenummer: 24 166 597.5
+
+López García, Raquel
+Beauftragter Prüfer
+Für die Prüfungsabteilung
+
+Anlagen: Anmelder, die nicht die Mailbox nutzen, können Patentliteratur über Espacenet einsehen
+9 Seite/n Gründe (EPA Form 2906)
+DE202014104661U1
+
+EPA Form 2001 04.25AUWF (15.09.2026)
+
+Seite 2 von 2
+
+=== page 3 of 11: documents/07.pdf page 1 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 1
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+Der Prüfung werden folgende Anmeldungsunterlagen zugrunde gelegt:
+
+Beschreibung, Seiten
+
+1-15 eingereicht am 08-04-2025 in elektronischer Form
+
+Ansprüche, Nr.
+
+1-15 eingereicht am 08-04-2025 in elektronischer Form
+
+Zeichnungen, Blätter
+
+1/6-6/6 ursprüngliche Fassung
+
+1 Stand der Technik
+
+Es werden die folgenden Dokumente (D) genannt; die Nummerierung wird auch im weiteren Verfahren beibehalten:
+
+D1 DE 88 00 750 U1 10. März 1988 (1988-03-10)
+D2 DE 101 52 519 A1 (WIELAND ELECTRIC GMBH [DE]) 8. Mai 2003 (2003-05-08)
+D3 US 2011/318975 A1 (GIEFERS STEFAN [DE] ET AL) 29. Dezember 2011 (2011-12-29)
+D4 EP 3 145 031 A2 (WAGO VERWALTUNGS GMBH [DE]) 22. März 2017 (2017-03-22)
+
+Das folgende Dokument wird eingeführt. Die Nummerierung wird auch im weiteren Verfahren beibehalten.
+
+D5 DE 20 2014 104661 U1 (JIANGMEN KREALUX ELECTRICAL APPLIANCES CO [CN]) 28. Oktober 2014 (2014-10-28)
+
+2 Unabhängiger Anspruch 1
+
+Die vorliegende Anmeldung erfüllt nicht die Erfordernisse des Artikels 52 (1) EPÜ, weil der Gegenstand des Anspruchs 1 nicht neu im Sinne des Artikels 54 (1) und (2) EPÜ ist.
+
+EPA Form 2906 01.91TRI
+
+=== page 4 of 11: documents/07.pdf page 2 ===
+Datum
+Date
+Date
+
+18.09.2026
+
+Blatt
+Sheet 2
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+2.1 Die Argumente des Anmelders wurden sorgfältig geprüft, doch ist die Prüfungsabteilung weiterhin der Ansicht, dass D3 den Gegenstand des Anspruchs 1 offenbart. Die Anmelderin führt aus, dass sich D3 mit einer völlig anderen Konstruktionsart einer Leiteranschlussklemme befasst, bei der die gesamte Klemmfeder schwenkbar aufgehängt ist. Bei einer solchen Leiteranschlussklemme gibt es konstruktionsbedingt keine Notwendigkeit, zusätzlich einen schwenkbaren Betätigungshebel vorzusehen.
+
+2.1.1 In Anspruch 1 werden jedoch weder die Struktur der Klemmfeder noch die des Betätigungshebels näher beschrieben. Ebenso wenig wird erwähnt, dass der Betätigungshebel ein anderes Bauteil ist als die Leiteranschlussklemme:
+
+- "die Kontaktbaugruppe (9) oder die Kontaktbaugruppen (9) jeweils einen zugeordneten, verschwenkbaren Betätigungshebel (5) haben, wobei ein Betätigungshebel (5) jeweils zum Öffnen der Klemmstelle (10) einer zugeordneten Kontaktbaugruppe (9) eingerichtet ist"
+
+2.1.2 Daher fällt die Struktur des Anschlusses in D3 unter den Wortlaut von Anspruch 1.
+
+2.1.3 D1 offenbart (die Verweise in Klammern beziehen sich auf dieses Dokument, siehe Absätze [0050]-[0053], Figuren 1-11):
+
+Leiteranschlussklemme (110) mit einem Gehäuse (160) und einer in dem Gehäuse (160) angeordneten Kontaktbaugruppe (10) oder mehreren in einer Anreicherung in dem Gehäuse (160) nebeneinander angeordneten Kontaktbaugruppen (10), wobei eine solche Kontaktbaugruppe (10) zum Anschluss eines elektrischen Leiters mittels Federkraftklemmung eingerichtet ist und folgende Merkmale hat:
+
+a) die Kontaktbaugruppe (10) hat ein Stromschienenbauteil (20), das aus einem Stromschienenmaterial gefertigt ist, wobei das Stromschienenbauteil (20) als ein parallel zur Leitereinführrichtung (E) eines elektrischen Leiters in die Kontaktbaugruppe zumindest abschnittsweise abgewinkeltes Profilbauteil ausgebildet ist,
+
+b) die Kontaktbaugruppe (10) hat ein Federbauteil (60) mit einer Klemmfeder (72), wobei das Federbauteil (60) aus einem Federmaterial gefertigt ist, mit dem Stromschienenbauteil (20) mechanisch verbunden ist und zum Festklemmen eines elektrischen Leiters mittels der Klemmfeder (72) an einer Klemmstelle (18) am Stromschienenbauteil (20) eingerichtet ist,
+
+c) die Kontaktbaugruppe (10) hat eine Leitereinführöffnung (12) und einen sich an die Leitereinführöffnung (12) anschließenden Leitereinführkanal, durch den ein an der Leitereinführöffnung (12) eingeführter elektrischer Leiter zur Klemmstelle (18) führbar ist,
+
+EPA Form 2906 01.91TRI
+
+=== page 5 of 11: documents/07.pdf page 3 ===
+Datum
+
+Date
+
+Date
+
+18.09.2026
+
+Blatt
+
+Sheet
+
+Feuille
+
+3
+
+Anmelde-Nr:
+
+Application No:
+
+Demande n°:
+
+24 166 597.5
+
+d) der Leitereinfuhrkanal ist durch weniger stens eine erstige Wand (26), eine zweite Wand (72, 74) und eine dritte Wand (22a, 62a) gebildet, wobei die erstige Wand (26) im Wesentlichen parallel zur zweiten Wand (72, 74) angeordnet ist und die dritte Wand (22a, 62a) sich weniger stens von der ersten Wand (26) zur zweiten Wand (72, 74) erstreckt, wobei der elektrische Leiter in dem zwischen der ersten Wand (26), der zweiten Wand (72, 74) und der dritten Wand (22a, 62a) gebildeten Raum in die Kontaktbaugruppe (10) einfuhrbar ist,
+e) wobei zumindest die dritte Wand (22a, 62a) (es gibt eine Überlappung zwischen dem Bereich der Klemmfeder 22a und der Wand 22a des Stromschienenbauteils) des Leitereinfuhrkanals zum Teil aus dem Stromschienenbauteil (20) und zum Teil aus dem Federbauteil (60) gebildet ist, dadurch gekennzeichnet, dass die Kontaktbaugruppe (10) oder die Kontaktbaugruppen (10) jeweils einen zugeordneten, verschwenkbaren Betätigungshebel (60, 74) (in Anspruch 1 ist der Betätigungshebel nicht definiert und es wird auch nicht angegeben, dass es sich damit um ein separates Bauteil handelt) haben, wobei ein Betätigungshebel (60, 74) jeweils zum Öffnen der Klemmstelle (18) einer zugeordneten Kontaktbaugruppe (10) eingerichtet ist."
+
+D1
+
+Vorliegende Anmeldung
+
+2.2 Der Vollständigkeit halber sei angemerkt, dass der Gegenstand des Anspruchs aus der Kombination von D5 und D3 naheliegend ist (Article 56 EPU).
+2.2.1 D5 offenbart (die Verweise in Klammern beziehen sich auf these Dokument, siehe Absätze [0026]-[0030], Figuren 1-11):
+
+EPA Form 2906 01.91TRI
+
+=== page 6 of 11: documents/07.pdf page 4 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 4
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+Leiteranschlussklemme mit einem Gehäuse (2) und einer in dem Gehäuse (2) angeordneten Kontaktbaugruppe oder mehreren in einer Anreihrichtung in dem Gehäuse (2) nebeneinander angeordneten Kontaktbaugruppen, wobei eine solche Kontaktbaugruppe zum Anschluss eines elektrischen Leiters mittels Federkraftklemmung eingerichtet ist und folgende Merkmale hat:
+
+a) die Kontaktbaugruppe hat ein Stromschienenbauteil (3), das aus einem Stromschienenmaterial gefertigt ist, wobei das Stromschienenbauteil (3) als ein parallel zur Leitereinführrichtung eines elektrischen Leiters in die Kontaktbaugruppe zumindest abschnittsweise abgewinkeltes Profilbauteil ausgebildet ist,
+
+b) die Kontaktbaugruppe hat ein Federbauteil (9) mit einer Klemmfeder, wobei das Federbauteil (9) aus einem Federmaterial gefertigt ist, mit dem Stromschienenbauteil (3) mechanisch verbunden ist und zum Festklemmen eines elektrischen Leiters mittels der Klemmfeder an einer Klemmstelle am Stromschienenbauteil (3) eingerichtet ist,
+
+c) die Kontaktbaugruppe hat eine Leitereinführöffnung (siehe Figur 10) und einen sich an die Leitereinführöffnung (siehe Figur 10) anschließenden Leitereinführkanal, durch den ein an der Leitereinführöffnung (siehe Figur 10) eingeführter elektrischer Leiter zur Klemmstelle führbar ist,
+
+d) der Leitereinführkanal ist durch wenigstens eine erste Wand, eine zweite Wand (9) und eine dritte Wand (7) gebildet, wobei die erste Wand im Wesentlichen parallel zur zweiten Wand (9) angeordnet ist und die dritte Wand (7) sich wenigstens von der ersten Wand zur zweiten Wand (9) erstreckt, wobei der elektrische Leiter in dem zwischen der ersten Wand, der zweiten Wand (9) und der dritten Wand (7) gebildeten Raum in die Kontaktbaugruppe einführbar ist,
+
+e) wobei zumindest die dritte Wand des Leitereinführkanals zum Teil aus dem Stromschienenbauteil und zum Teil aus dem Federbauteil gebildet ist, dadurch gekennzeichnet, dass die Kontaktbaugruppe oder die Kontaktbaugruppen jeweils einen zugeordneten, verschwenkbaren Betätigungshebel (51) haben, wobei ein Betätigungshebel (1, Element 1 in D5 fungiert als Betätigungshebel) jeweils zum Öffnen der Klemmstelle einer zugeordneten Kontaktbaugruppe (9) eingerichtet ist (Absatz [0028]).
+
+EPA Form 2906 01.91TRI
+
+=== page 7 of 11: documents/07.pdf page 5 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 5
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+2.2.2 Der Gegenstand des Anspruchs 1 unterscheidet sich somit von der bekannten Leiteranschlussklemme dadurch, dass zumindest die dritte Wand des Leitereinführkanals zum Teil aus dem Stromschienenbauteil und zum Teil aus dem Federbauteil gebildet ist (TM1).
+2.2.3 Die technische Wirkung dieses Unterschieds besteht darin, dass die stromführende und die federnde Funktion auf zwei getrennte Bauteile verteilt werden können, so dass deren Material und Ausgestaltung jeweils an die elektrische Leitfähigkeit beziehungsweise die Federeigenschaften angepasst werden können.
+2.2.4 Die mit der vorliegenden Erfindung zu lösende Aufgabe kann somit darin gesehen werden, dass eine alternative Ausgestaltung der Metallkontakteinheit von D5 bereitzustellen, bei der die stromführende und die federnde Funktion durch getrennte Bauteile realisiert werden, ohne dabei die kompakte Leiterführung aufzugeben.
+2.2.5 Die in Anspruch 1 der vorliegenden Anmeldung vorgeschlagene Lösung kann nicht als erfinderisch angesehen werden (Artikel 52 (1) und 56 EPÜ).
+
+Die Ausbildung eines Stromschienenbauteils und eines davon getrennten, mechanisch daran befestigten Federbauteils stellt eine dem Fachmann bekannte konstruktive Alternative zu einer einstückigen Metallkontakteinheit dar. D3 zeigt gerade eine solche Anordnung mit einem leitenden Halterahmen 20 und einer separaten Klemmfeder 60, wobei Bereiche des Halterahmens und der Klemmfeder im seitlichen Bereich des Leiteraufnahmeraums überlappend beziehungsweise gemeinsam die seitliche Begrenzung bilden. Für den Fachmann ist es daher naheliegend, die in D5 einstückig ausgeführten
+
+EPA Form 2906 01.91TRI
+
+=== page 8 of 11: documents/07.pdf page 6 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 6
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+leitenden und federnden Bereiche entsprechend aufzuteilen. Dass dabei eine Seitenwand des Leitereinführkanals teilweise durch das Stromschienenbauteil und teilweise durch das Federbauteil gebildet wird, ergibt sich als naheliegende konstruktive Ausgestaltung dieser bekannten Zweiteilung. Der Gegenstand des Anspruchs 1 beruht daher insoweit nicht auf einer erfinderischen Tätigkeit im Sinne von Artikel 56 EPÜ.
+
+3 Abhängige Ansprüche 2-15
+
+Die abhängigen Ansprüche 2-15 scheinen keine zusätzlichen Merkmale zu enthalten, die in Kombination mit den Merkmalen eines Anspruchs, auf den sie rückbezogen sind, die Erfordernisse des EPÜ in Bezug auf Neuheit (Artikel 54 (1) und (2) EPÜ) oder erfinderische Tätigkeit erfüllen (Artikel 56 EPÜ).
+
+3.1 Der Gegenstand der Ansprüche 2-15 ist aus D3 bekannt (Artikel 54 (1) und (2) EPÜ):
+
+Anspruch 2: D3 offenbart, dass die Klemmstelle (18) an der ersten Wand (26) ausgebildet ist (siehe Figur 10).
+Anspruch 3: D3 offenbart, dass das eine Wand der ersten und der zweiten Wand (26, 72, 74) vollständig oder zumindest zum Teil durch einen Abschnitt des Stromschienenbauteils (20) gebildet ist und die andere Wand der ersten und der zweiten Wand (72, 74) vollständig oder zumindest zum Teil durch einen Abschnitt (72, 74) des Federbauteils (60) gebildet ist (siehe Figur 6).
+Anspruch 4: D3 offenbart, dass die dritte Wand (22a, 62a), die zum Teil aus dem Stromschienenbauteil (20) und zum Teil aus dem Federbauteil (60) gebildet wird, in Leiterführrichtung und/oder orthogonal zur Leiteinführrichtung aufeinanderfolgende Abschnittte von Federbauteil (60) und Stromschienenbauteil (20) hat.
+Anspruch 5: D3 offenbart, dass das Federbauteil (60) einen U-formig gebogenen Abschnitt (62a, 62b, 72, 74) hat, der zumindest einen Teil des Leiteinführkanals bildet (Figur 1).
+Anspruch 6: D3 offenbart, dass der Leiteinführkanal U-formig von der ersten Wand (26), der zweiten Wand (72, 74) und der dritten Wand (22a, 62a) umgeben ist oder zusätzlich eine die U-Form nach oben hin schlieBende, der dritten Wand (22a, 62a) gegenüberliegende vierte Wand (22b, 62b) hat (Figuren 1-4).
+
+EPA Form 2906 01.91TRI
+
+=== page 9 of 11: documents/07.pdf page 7 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 7
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+- Anspruch 7: D3 offenbart, dass die vierte Wand (22b, 62b) zum Teil aus dem Stromschienenbauteil (30) und zum Teil aus dem Federbauteil (60) gebildet ist.
+- Anspruch 8: D3 offenbart, dass das Federbauteil (60) durch formschlüssige und/oder materialschlüssige Befestigung (14, 24a, 64a) an dem Stromschienenbauteil (30) befestigt ist.
+- Anspruch 9: D3 offenbart, dass das Federbauteil (60) als Klemmfeder eine einseitige Blattfeder hat, die als gegenüber der Leitereinführrichtung schräg gestellte Federzunge (72) ausgebildet ist, die in Richtung zum Stromschienenbauteil (30) schräg angeordnet ist und am freien Ende eine Klemmkante (94) aufweist, wobei die Klemmstelle (18) zum Festklemmen des elektrischen Leiters zwischen dem Stromschienenbauteil (30) und der Klemmkante (94) gebildet ist."
+- Anspruch 10: D3 offenbart, dass die Federzunge (72) als vom Material des Federbauteils (60) ausgestellte und abgebogene Materialzunge ausgebildet ist (Figuren 6, 7).
+- Anspruch 11: D3 offenbart, dass die Federzunge (72) eine abragende Betätigungslasche (74) zur Betätigung der Federzunge (72) aufweist.
+- Anspruch 12: D3 offenbart, dass die Kontaktbaugruppe als Teil eines elektrischen Steckverbinders ausgebildet ist, wobei die Kontaktbaugruppe wenigstens einen am Stromschienenbauteil (20) angeformten elektrischen Steckkontakt (28) auf der der Leitereinführöffnung abgewandten Seite hat.
+- Anspruch 13: D3 offenbart, dass die Leiteranschlussklemme als elektrischer Steckverbinder ausgebildet ist, wobei die Kontaktbaugruppe oder die Kontaktbaugruppen jeweils wenigstens einen Steckkontakt (28) aufweisen.
+- Anspruch 14: D3 offenbart, dass durch manuelle Betätigung des jeweiligen verschwenkbaren Betätigungshebels (74) die Federzunge bzw. deren Klemmkante (94) der Klemmfeder (72) der zugeordneten Kontaktbaugruppe von dem Stromschienenbauteil (20) fortbewegt werden kann.
+
+3.1.1 Der Gegenstand des Anspruchs 1 ergibt sich als naheliegend aus der Kombination von D5 und D3 (Artikel 56 EPÜ):
+
+- Ansprüche 2 bis 8: die Merkmale der Ansprüche 2 bis 8 betreffen im Wesentlichen die konkrete geometrische Ausbildung des Leitereinführkanals sowie die Aufteilung seiner Wände auf Stromschienenbauteil und Federbauteil, einschließlich einer U-förmigen
+
+EPA Form 2906 01.91TRI
+
+=== page 10 of 11: documents/07.pdf page 8 ===
+Datum
+Date
+Date
+
+18.09.2026
+
+Blatt
+Sheet 8
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+Ausbildung, einer vierten Wand und einer formschlüssigen Befestigung.
+D3 zeigt bereits eine Kontaktbaugruppe mit einem leitenden Halterahmen
+und einem davon getrennten Federbauteil, wobei Abschnitte beider
+Bauteile den Leiteraufnahmebereich gemeinsam begrenzen. Die
+beanspruchten Ausgestaltungen stellen daher lediglich naheliegende
+konstruktive Ausführungsformen der aus D3 bekannten Zweiteilung dar.
+
+Ansprüche 9 bis 11: die zusätzlichen Merkmale der Ansprüche 9 bis 11 betreffen die Ausbildung der Klemmfeder als einseitige Blattfeder bzw. Federzunge, deren integrale Ausbildung aus dem Material des Federbauteils sowie eine Betätigungslasche. Auch diese Merkmale sind aus D3 besteht bzw. ergeben sich unmittelbar aus dessen als einstückiges Stanz- und Biegeteil ausgebildeter Klemmfeder mit Klemm- und Betätigungsabschnitt.
+Ansprüche 12 bis 14: die Merkmale der Ansprüche 12 bis 14 betreffen die Verwendung der Kontaktbaugruppe in einem elektrischen Steckverbinder, einen elektrischen Steckkontakt sowie die manuelle Betätigung zum Öffnen der Klemmstelle. Auch diese Maßnahmen sind aus D3 besteht und stellen im Zusammenhang mit der aus D5 besteht Leiteranschlussklemme keine über das fachübliche Handeln hinausgehenden Maßnahmen dar.
+Anspruch 15: D5 offenbart der Betätigungshebel (1) eine an seiner ersten oder zweiten Längsseite angeordnete, tangentiale seitliche Betätigungsfläche zur Betätigung der Federzunge (13) hat (sehe Absatz [0028]).
+
+4 Gegenwärigt ist nicht erkennbar, welcher Teil der Anmeldung die Grundlage für einen neuen, gewährbaren Anspruch bilden können. Falls der Anmelder davon einen einzelnen Gegenstand für patentfähig hält, sollte ein auf diesen Gegenstand gerichteter, gemäß Regel 43 (1) EPÜ abgefasster unabhängiger Anspruch eingereicht werden.
+4.1 Insbesondere wird darum gebeten das durch die gegenwärte Anmeldung gelöste objektiv zu lösende technische Problem herauszuarbeiten (EPÜ Richtlinien, G-VII, 5):
+
+(1) die Angabe, welches zitierte Dokument ihre Meinung nach als der wichtige Stand der Technik anzusehen ist;
+(2) Angabe des Unterschieds zwischen der Anmeldung und thisem maßgeblichen Stand der Technik in Bezug auf die technischen Merkmale;
+
+EPA Form 2906 01.91TRI
+
+=== page 11 of 11: documents/07.pdf page 9 ===
+Datum
+Date 18.09.2026
+Date
+
+Blatt
+Sheet 9
+Feuille
+
+Anmelde-Nr:
+Application No: 24 166 597.5
+Demande n°:
+
+- (3) Darlegung, welche technische Wirkung durch diesen Unterschied erzielt wird;
+- (4) auf der Grundlage dieser technischen Wirkung eine Formulierung der objektiven technischen Aufgabe, das im Hinblick auf den nächstliegenden Stand der Technik zu lösen ist;
+- (5) Angabe der Gründe, warum der Gegenstand der neuen Ansprüche als eine nicht naheliegende Lösung des objektiven technischen Problems angesehen werden sollte.
+
+5 Aufforderung
+
+5.1 Um die Erfordernisse der Regel 42 (1) b) EPÜ zu erfüllen, ist in der Beschreibung D1-D5 zu nennen; sein einschlägiger Inhalt sollte kurz umrissen werden. Der Anmelder sollte in der Beschreibung klar darstellen, welche Merkmale des Gegenstands des unabhängigen Anspruchs 1 aus D3 oder D5 schon bekannt sind.
+5.2 Der Anmelder sollte beim Einreichen geänderter Ansprüche gleichzeitig die Beschreibung an die geänderten Ansprüche anpassen. Bei der Überarbeitung, insbesondere des einleitenden Teils und der Darstellung der Aufgabe oder der Vorteile der Erfindung, ist darauf zu achten, dass der Gegenstand nicht über den Inhalt der Anmeldung in der ursprünglich eingereichten Fassung hinausgeht (Artikel 123 (2) EPÜ).
+5.3 Damit den Erfordernissen der Regel 137 (4) EPÜ entsprochen wird, sollte der Anmelder alle Änderungen - ob Hinzufügung, Ersatz oder Streichung - deutlich kenntlich machen und angeben, welche Stellen in der ursprünglich eingereichten Anmeldung diese Änderungen stützen (vgl. Richtlinien H-III, 2.1).
+
+EPA Form 2906 01.91TRI

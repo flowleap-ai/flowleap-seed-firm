@@ -1,0 +1,204 @@
+=== page 1 of 5: documents/16.pdf page 1 ===
+Europäisches
+Patentamt
+European
+Patent Office
+Office européen
+des brevets
+
+European Patent Office
+80298 MUNICH
+GERMANY
+
+Dunn, Paul Edward
+
+Renishaw plc
+
+Patent Department
+
+New Mills
+
+Wotton-under-Edge, Glos. GL12 8JR
+
+ROYAUME UNI
+
+Questions about this communication?
+Contact Customer Services at
+www.epo.org/contact
+
+Application No. 23 755 468.8 - 1001    Ref. 1203/EPw/0    Date 09.06.2026
+Applicant Renishaw plc
+
+Communication pursuant to Article 94(3) EPC
+
+The examination of the above-identified application has revealed that it does not meet the requirements of the European Patent Convention for the reasons enclosed herewith. If the deficiencies indicated are not rectified the application may be refused pursuant to Article 97(2) EPC.
+
+You are invited to file your observations and in sofar as the deficiencies are such as to be rectifiable, to correct the indicated deficiencies within a period
+
+of 4 months
+
+from the notification of this communication, this period being computed in accordance with Rules 126(2) and 131(2) and (4) EPC. One set of amendments to the description, claims and drawings is to be filed within the said period on separate sheets (R. 50(1) EPC).
+
+If filing amendments, you must identify them and indicate the basis for them in the application as filed. Failure to meet either requirement may lead to a communication from the Examining Division requesting that you correct this deficiency (R. 137(4) EPC).
+
+In case you withdraw the application within the above-mentioned period, the examination fee will be refunded at a rate of 50% (Art. 11(b) RFees).
+
+Failure to comply with this invitation in due time will result in the application being deemed to be withdrawn (Art. 94(4) EPC).
+
+Registered Letter
+
+EPO Form 2001 04.25AUWF (03.06.2026)
+
+=== page 2 of 5: documents/16.pdf page 2 ===
+Application No.: 23 755 468.8
+
+Reim, Klaus
+
+Primary Examiner
+
+For the Examining Division
+
+Enclosure(s): Applicants not using the Mailbox can access patent literature via Espacenet
+
+3 page/s reasons (EPO Form 2906)
+
+EPO Form 2001 04.25AUWF (03.06.2026)
+
+page 2 of 2
+
+=== page 3 of 5: documents/17.pdf page 1 ===
+Datum
+
+Date
+
+Date
+
+09.06.2026
+
+Blatt
+
+Sheet 1
+
+Feuille
+
+Anmelde-Nr:
+
+Application No:
+
+Demande n°:
+
+23 755 468.8
+
+The examination is being carried out on the following application documents
+
+Description, Pages
+
+1, 11-30    as published
+2-10    filed in electronic form on    11-09-2025
+
+Claims, Numbers
+
+1-15    filed in electronic form on    11-09-2025
+
+Drawings, Sheets
+
+1/3-3/3    as published
+
+The following documents have been cited in the international search report; the numbering will be adhered to in the rest of the procedure.
+
+D1 DE 196 11 983 C1 (ZEISS CARL JENA GMBH [DE]) 31 July 1997 (1997-07-31)
+D2 US 2011/067255 A1 (KUMMETZ JENS [DE] ET AL) 24 March 2011 (2011-03-24)
+D3 EP 1 659 373 A1 (FAGOR S COOP [ES]) 24 May 2006 (2006-05-24)
+D4 WO 2021/126261 A1 (VISHAY MEASUREMENTS GROUP INC [US]) 24 June 2021 (2021-06-24)
+
+1 Amendments and arguments of the applicant
+
+1.1 The examining division acknowledges the amendments filed with the letter dated 11.09.2025 and agrees with the applicant's assessment of novelty and inventive step with regard to D1-D4. The subject matter of claim 1 is considered to be novel (Art. 54 EPC) and inventive (Art. 56 EPC).
+1.2 However, the following objections remain.
+
+EPO Form 2906 01.91TRI
+
+=== page 4 of 5: documents/17.pdf page 2 ===
+Datum
+
+Date
+
+Date
+
+09.06.2026
+
+Blatt
+
+Sheet
+
+Feuille
+
+2
+
+Anmelde-Nr:
+
+Application No:
+
+Demande n°:
+
+23 755 468.8
+
+2 Clarity
+
+2.1 Claim 1
+
+2.1.1 Claim defines in lines 7-8 a second thermal displacement relief layer. However, the location of said second thermal displacement relief layer is not defined. In fact, it is not mentioned any more in claim 1. As its location is not defined, its technical function is not clear (Art. 84 EPC) and the scope of the claimed scale arrangement is ambiguous and therefore not clear (Art. 84 EPC).
+2.1.2 In figures 2 and 3, the second thermal displacement relief layer (208, 308) is located below the intermediate member (206, 306). The first thermal displacement relief layer is located above the intermediate member.
+2.1.3 This has to be clarified in claim 1 in order to establish a clear scope of protection in the sense of Art. 84 EPC.
+2.2 Claim 5
+
+Merely reference signs may be put in parenthesis (R. 43(7) EPC). Hence, the expression "("FeNi")" has to be reformulated as "i.e. FeNi".
+
+2.3 Claim 9
+
+Claim 9 defines as "claimed in 8". Presumably "as claimed in claim 8" is meant.
+
+2.4 Claims 13-15
+
+2.4.1 Claims 13 corresponds to originally filed claims 17-18 and claim 14 corresponds to originally filed claim 19, which were identified in the international preliminary report on patentability, i.e. IPRP, dated 24.02.2025 under point 1.4.5 to belong to a fourth invention.
+2.4.2 Claim 15 corresponds to originally filed claim 20, which was identified in said IPRP under point 1.4.3 to belong to a second invention.
+2.4.3 The subject matter of claims 13-15 is incompatible with the scale arrangement defined in claim 1, because the subject matter of claim 13-15 relies on the fact that there is no second thermal displacement relief layer between the intermediate layer and the substrate. This, however, is at the core of the present invention.
+2.4.4 In addition, claim 14 defines that "there is no adhesive and/or thermal displacement relief layer between said intermediate member and the substrate", whereas claim 12, on which claim 14 depends, defines that the "thermal displacement relief layer adheres an intermediate member of the thermal displacement relief structure to the substrate". This is contradictory and therefore not clear (Art. 84 EPC).
+
+EPO Form 2906 01.91TRI
+
+=== page 5 of 5: documents/17.pdf page 3 ===
+Datum
+
+Date
+
+Date
+
+09.06.2026
+
+Blatt
+
+Sheet
+
+Feuille
+
+3
+
+Anmelde-Nr:
+
+Application No:
+
+Demande n°:
+
+23 755 468.8
+
+2.4.5 In order to avoid the above mentioned clarity objections, it is proposed to delete claims 13-15. A divisional application according to Rule 36 EPC may be filed in their regard.
+2.4.6 The description has to be adapted accordingly.
+2.4.7 Figures 4 and 5 relate to the subject matter of claims 13-15 and, therefore, have to be identified as not belonging to the claimed invention.
+
+3 Further procedure
+
+3.1 The applicant is kindly asked to file new application documents, which overcome the above mentioned objections. The description has to be adapted to the amended claims.
+3.2 And accordingly amended claim set of application documents is considered to fulfil the requirements of the EPC in the light of the prior art currently at hand.
+
+EPO Form 2906 01.91TRI

@@ -9,6 +9,7 @@
  */
 import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
+import { FIXTURE_MARK } from '../fetch/make-text-fixtures.mjs'
 import { join } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { loadSeed, maySee, SEED_ROOT } from '../index.mjs'
@@ -146,6 +147,21 @@ export function checkSeed(root = SEED_ROOT) {
       if (document.sha256 === undefined) errors.push(`${at}: no measured fields; run fetch/add-documents.mjs`)
       else if (sha256(bytes) !== document.sha256 || bytes.length !== document.bytes) errors.push(`${at}: ${document.file} differs from its recorded sha256 and size`)
       if (document.registerDocumentId === null) open.push(`${at}: registerDocumentId (copy it from the register "All documents" page)`)
+    }
+    const fixtures = new Set()
+    for (const document of matter.documents.filter(d => d.textFixture !== undefined)) {
+      const fixture = document.textFixture
+      const at = `${where} row ${document.row} textFixture`
+      fixtures.add(fixture.file).add(fixture.text)
+      if (!/^text-fixtures\/\d{2}\.flowleap-ocr-text\.pdf$/.test(fixture.file)) errors.push(`${at}: file must be text-fixtures/NN.flowleap-ocr-text.pdf, so its name says that FlowLeap made it`)
+      if (!existsSync(fixture.path)) { errors.push(`${at}: ${fixture.file} is missing`); continue }
+      const bytes = readFileSync(fixture.path)
+      if (sha256(bytes) !== fixture.sha256 || bytes.length !== fixture.bytes) errors.push(`${at}: ${fixture.file} differs from its recorded sha256 and size`)
+      if (!bytes.includes(FIXTURE_MARK)) errors.push(`${at}: ${fixture.file} does not carry the fixture mark in its metadata`)
+    }
+    const fixturesDir = join(matter.dir, 'text-fixtures')
+    for (const file of existsSync(fixturesDir) ? readdirSync(fixturesDir) : []) {
+      if (!fixtures.has(`text-fixtures/${file}`)) errors.push(`${where}: text-fixtures/${file} is not the textFixture of a document`)
     }
     const documentsDir = join(matter.dir, 'documents')
     for (const file of existsSync(documentsDir) ? readdirSync(documentsDir) : []) {

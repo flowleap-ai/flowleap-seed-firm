@@ -23,8 +23,12 @@ export const SEED_ROOT = dirname(fileURLToPath(import.meta.url))
  *   registerDocumentId: string | null, registerListDate: string, dateOnDocument: string | null, otherDates: OtherDate[],
  *   form: string | null, formCode: string | null, reference: string | null, applicationNumberPrinted: string | null,
  *   readBy: string, downloadedBy: string, downloadedAt: string,
- *   sha256?: string, bytes?: number, pages?: number, textLayer?: boolean }} SeedDocument
+ *   sha256?: string, bytes?: number, pages?: number, textLayer?: boolean, textFixture?: TextFixture }} SeedDocument
  *   The measured fields (sha256, bytes, pages, textLayer) are written by fetch/add-documents.mjs.
+ * @typedef {{ file: string, path: string, text: string, madeBy: string, sources: string[], ocr: { model: string, at: string },
+ *   checked: string, fixes: string[], changes: string[], sha256: string, bytes: number, pages: number }} TextFixture
+ *   A test fixture that FlowLeap made, not a register copy: the letter's text as a PDF with a text layer (text-fixtures/,
+ *   written by fetch/make-text-fixtures.mjs). It is not a MyEPO Mailbox file; see the README.
  * @typedef {{ tool: string, input: Record<string, unknown>, fetchedAt: string, source: string, sha256: string, body: unknown }} RegisterSnapshot
  * @typedef {{ id: string, application: string, firstPublication: string, registerUrl: string, title: string, client: string,
  *   fileNumber: string, type: 'prosecution' | 'opposition', language: 'de' | 'en' | 'fr', languageSource: string,
@@ -53,7 +57,11 @@ export function loadSeed(root = SEED_ROOT) {
       ? Object.fromEntries(readdirSync(registerDir).filter(name => name.endsWith('.json')).sort()
         .map(name => [name.slice(0, -'.json'.length), readJson(join(registerDir, name))]))
       : {}
-    const documents = readJson(join(dir, 'documents.json')).map(document => ({ ...document, path: join(dir, document.file) }))
+    const documents = readJson(join(dir, 'documents.json')).map(document => ({
+      ...document,
+      path: join(dir, document.file),
+      ...(document.textFixture === undefined ? {} : { textFixture: { ...document.textFixture, path: join(dir, document.textFixture.file) } }),
+    }))
     return { ...readJson(join(dir, 'matter.json')), dir, documents, register }
   })
   return {
