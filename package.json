@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "test": "node --test 'test/*.test.mjs'",
-    "check": "node check/check-seed.mjs"
+    "check": "node check/check-seed.mjs && node fetch/make-text-fixtures.mjs --check"
   },
   "engines": {
     "node": ">=22"

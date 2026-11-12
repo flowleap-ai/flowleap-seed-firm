@@ -24,7 +24,27 @@
     "sha256": "ab7f0d6c9febda00c65a2322523adb6a9bc7d5a224e3ea29a021d56a153f5e94",
     "bytes": 45805,
     "pages": 2,
-    "textLayer": false
+    "textLayer": false,
+    "textFixture": {
+      "file": "text-fixtures/04.flowleap-ocr-text.pdf",
+      "text": "text-fixtures/04.flowleap-ocr-text.txt",
+      "madeBy": "FlowLeap, not the EPO: the text of the register copies by Mistral OCR, written as a PDF with a text layer by fetch/make-text-fixtures.mjs",
+      "sources": [
+        "documents/04.pdf"
+      ],
+      "ocr": {
+        "model": "mistral-ocr-latest",
+        "at": "2026-11-12"
+      },
+      "checked": "a person compared the application number, the date, the reference, the form number and the period line of page 1 with the page image of the register copy, 2026-11-12",
+      "fixes": [],
+      "changes": [
+        "the images of the letter (the EPO logo, the barcode, the signature) are left out"
+      ],
+      "sha256": "4181358510dbbaac33e5e218f4164fa6243fee98817c3899ff54291b5398ecf5",
+      "bytes": 6098,
+      "pages": 2
+    }
   },
   {
     "row": 5,

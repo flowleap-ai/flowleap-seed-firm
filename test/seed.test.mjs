@@ -7,6 +7,7 @@ import { join } from 'node:path'
 import { after, test } from 'node:test'
 import { loadSeed, maySee, responsibleAt, SEED_ROOT, seedCase, visibleMatters } from '../index.mjs'
 import { canonicalJson, checkSeed } from '../check/check-seed.mjs'
+import { FIXTURE_MARK, makeTextFixtures } from '../fetch/make-text-fixtures.mjs'
 
 const seed = loadSeed()
 const matter = application => seed.matters.find(m => m.application === application)
@@ -56,6 +57,30 @@ test('a test picks the letter with two dates by its case id', () => {
 
 test('no seed document has a text layer', () => {
   assert.ok(seed.matters.flatMap(m => m.documents).every(d => d.textLayer === false))
+})
+
+test('the four Form 2001 letters have a text fixture that FlowLeap made, with the reasons that the letter encloses', () => {
+  const fixtures = seed.matters.flatMap(m => m.documents.filter(d => d.textFixture !== undefined).map(d => [d.row, d.textFixture]))
+  assert.deepEqual(fixtures.map(([row, f]) => [row, f.pages, f.sources]).sort((a, b) => a[0] - b[0]), [
+    [4, 2, ['documents/04.pdf']], [6, 11, ['documents/06.pdf', 'documents/07.pdf']], [8, 2, ['documents/08.pdf']], [16, 5, ['documents/16.pdf', 'documents/17.pdf']],
+  ])
+  for (const [, f] of fixtures) {
+    assert.ok(readFileSync(f.path).includes(FIXTURE_MARK), `${f.file} carries the mark`)
+    assert.match(f.file, /flowleap-ocr-text\.pdf$/)
+  }
+  assert.equal(makeTextFixtures({ check: true }), 0, 'each PDF is what its text file gives')
+})
+
+test('the check rejects a text fixture without the mark, and a file in text-fixtures that no document names', () => {
+  const unmarked = checkCopy(root => {
+    const file = join(root, 'matters/EP23755468/text-fixtures/16.flowleap-ocr-text.pdf')
+    const pdf = readFileSync(file).toString('latin1').replaceAll(FIXTURE_MARK, 'x'.repeat(FIXTURE_MARK.length))
+    writeFileSync(file, Buffer.from(pdf, 'latin1'))
+    editJson(root, 'matters/EP23755468/documents.json', docs => docs.map(d => d.row === 16 ? { ...d, textFixture: { ...d.textFixture, sha256: createHash('sha256').update(Buffer.from(pdf, 'latin1')).digest('hex') } } : d))
+  })
+  assert.ok(unmarked.some(e => e.includes('row 16 textFixture') && e.includes('does not carry the fixture mark')), unmarked.join('\n'))
+  const stray = checkCopy(root => writeFileSync(join(root, 'matters/EP23755468/text-fixtures/17.flowleap-ocr-text.pdf'), '%PDF-1.4\n'))
+  assert.ok(stray.some(e => e.includes('text-fixtures/17.flowleap-ocr-text.pdf is not the textFixture of a document')), stray.join('\n'))
 })
 
 test('the check rejects a changed PDF', () => {
